@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HCSA's News Report</title>
+<title>The Heylaurent News Cards</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -64,17 +64,18 @@ a { color: inherit; }
   align-items: center;
   min-width: 0;
 }
-.teddy {
-  width: 58px;
-  height: 58px;
+.hoodie {
+  width: 76px;
+  height: 76px;
   flex: 0 0 auto;
-  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.36));
+  filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.38));
 }
-.teddy .fur { fill: #c89f74; }
-.teddy .inner { fill: #f0cfaa; }
-.teddy .ink { fill: #3b2a1d; }
-.teddy .blush { fill: #f4a4a4; opacity: 0.58; }
-.teddy .tie { fill: var(--accent); }
+.hoodie .cloak { fill: #05070b; }
+.hoodie .edge { fill: none; stroke: #eef4ff; stroke-width: 5.2; stroke-linecap: round; stroke-linejoin: round; }
+.hoodie .screen { fill: #07101e; stroke: #eef4ff; stroke-width: 5.2; }
+.hoodie .glow { fill: var(--accent); opacity: 0.18; }
+.hoodie .eye { fill: #eef4ff; }
+.hoodie .button-dot { fill: #eef4ff; }
 .kicker {
   margin: 0 0 6px;
   color: var(--accent);
@@ -439,7 +440,7 @@ main {
   .brand {
     align-items: flex-start;
   }
-  .teddy {
+  .hoodie {
     width: 52px;
     height: 52px;
   }
@@ -455,27 +456,21 @@ main {
 <header class="masthead">
   <div class="shell masthead-top">
     <div class="brand">
-      <svg class="teddy" viewBox="0 0 100 100" role="img" aria-label="테디베어">
-        <circle class="fur" cx="27" cy="24" r="15"></circle>
-        <circle class="fur" cx="73" cy="24" r="15"></circle>
-        <circle class="inner" cx="27" cy="24" r="9"></circle>
-        <circle class="inner" cx="73" cy="24" r="9"></circle>
-        <circle class="fur" cx="50" cy="48" r="31"></circle>
-        <ellipse class="inner" cx="50" cy="56" rx="18" ry="14"></ellipse>
-        <circle class="ink" cx="39" cy="43" r="4"></circle>
-        <circle class="ink" cx="61" cy="43" r="4"></circle>
-        <circle fill="#fff" cx="40.5" cy="41.5" r="1.2"></circle>
-        <circle fill="#fff" cx="62.5" cy="41.5" r="1.2"></circle>
-        <ellipse class="ink" cx="50" cy="53" rx="5.2" ry="3.7"></ellipse>
-        <path d="M44 59 Q50 64 56 59" fill="none" stroke="#3b2a1d" stroke-width="2" stroke-linecap="round"></path>
-        <circle class="blush" cx="34" cy="53" r="5"></circle>
-        <circle class="blush" cx="66" cy="53" r="5"></circle>
-        <ellipse class="fur" cx="50" cy="85" rx="23" ry="14"></ellipse>
-        <polygon class="tie" points="50,69 46,77 50,83 54,77"></polygon>
+      <svg class="hoodie" viewBox="0 0 120 120" role="img" aria-label="후드 쓴 뉴스 카드 캐릭터">
+        <circle class="glow" cx="60" cy="60" r="52"></circle>
+        <path class="cloak" d="M28 98 C28 74 32 55 43 45 C44 22 52 9 60 9 C68 9 76 22 77 45 C88 55 92 74 92 98 Z"></path>
+        <path class="edge" d="M38 50 C42 31 50 20 60 20 C70 20 78 31 82 50"></path>
+        <path class="cloak" d="M38 54 C41 77 50 86 60 90 C70 86 79 77 82 54 C75 49 68 47 60 47 C52 47 45 49 38 54 Z"></path>
+        <path class="edge" d="M38 54 C41 77 50 86 60 90 C70 86 79 77 82 54"></path>
+        <path class="eye" d="M47 58 C51 56 56 57 59 61 C56 65 49 66 45 62 C44 60 45 59 47 58 Z"></path>
+        <path class="eye" d="M73 58 C69 56 64 57 61 61 C64 65 71 66 75 62 C76 60 75 59 73 58 Z"></path>
+        <path class="cloak" d="M21 107 C23 91 29 78 40 72 L80 72 C91 78 97 91 99 107 Z"></path>
+        <rect class="screen" x="25" y="75" width="70" height="34" rx="7"></rect>
+        <circle class="button-dot" cx="60" cy="92" r="6"></circle>
       </svg>
       <div>
         <p class="kicker">DARK NEWS CARD BRIEFING</p>
-        <h1>HCSA's News Report</h1>
+        <h1>The Heylaurent News Cards</h1>
         <p class="deck">AI, Tech, Security, Economy and Market Intelligence</p>
       </div>
     </div>
