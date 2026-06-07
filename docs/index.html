@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HCSA's News Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0b111d;
+  --panel: #111a2b;
+  --panel-2: #162238;
+  --card: #121d30;
+  --card-hi: #172842;
+  --line: rgba(180, 199, 231, 0.16);
+  --text: #eef4ff;
+  --muted: #9aabc5;
+  --soft: #c8d7ed;
+  --blue: #8bc7ff;
+  --mint: #84e0c1;
+  --peach: #ffbd8a;
+  --lav: #c7b3ff;
+  --rose: #ff9fbd;
+  --yellow: #f7d774;
+  --accent: #7cc9ff;
+  --shadow: 0 22px 54px rgba(0, 0, 0, 0.32);
+  font-family: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(124, 201, 255, 0.16), transparent 28%),
+    radial-gradient(circle at 92% 8%, rgba(199, 179, 255, 0.15), transparent 24%),
+    linear-gradient(180deg, #0b111d 0%, #0a0f19 100%);
+}
+a { color: inherit; }
+.shell {
+  width: min(1260px, calc(100% - 32px));
+  margin: 0 auto;
+}
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  border-bottom: 1px solid var(--line);
+  background: rgba(11, 17, 29, 0.9);
+  backdrop-filter: blur(16px);
+}
+.masthead-top {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: center;
+  padding: 22px 0 16px;
+}
+.brand {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  min-width: 0;
+}
+.teddy {
+  width: 58px;
+  height: 58px;
+  flex: 0 0 auto;
+  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.36));
+}
+.teddy .fur { fill: #c89f74; }
+.teddy .inner { fill: #f0cfaa; }
+.teddy .ink { fill: #3b2a1d; }
+.teddy .blush { fill: #f4a4a4; opacity: 0.58; }
+.teddy .tie { fill: var(--accent); }
+.kicker {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(29px, 4vw, 46px);
+  line-height: 1.04;
+  letter-spacing: 0;
+}
+.deck {
+  margin: 7px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.actions {
+  display: flex;
+  gap: 9px;
+  justify-content: flex-end;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 13px;
+  border: 1px solid rgba(124, 201, 255, 0.34);
+  border-radius: 8px;
+  background: rgba(124, 201, 255, 0.11);
+  color: var(--text);
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button.primary {
+  border-color: rgba(132, 224, 193, 0.5);
+  background: rgba(132, 224, 193, 0.14);
+}
+.button:hover { background: rgba(124, 201, 255, 0.2); }
+.icon {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.tabs-wrap {
+  border-top: 1px solid var(--line);
+}
+.tabs {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 0;
+}
+.tab {
+  flex: 0 0 auto;
+  min-height: 35px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-weight: 800;
+  cursor: pointer;
+}
+.tab.active {
+  border-color: rgba(132, 224, 193, 0.55);
+  background: rgba(132, 224, 193, 0.15);
+  color: #d9fff2;
+}
+main {
+  padding: 22px 0 58px;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.metric {
+  min-height: 92px;
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025));
+  box-shadow: var(--shadow);
+}
+.metric span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+.metric strong {
+  color: var(--soft);
+  font-size: 16px;
+  line-height: 1.35;
+}
+.ai-banner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 14px 16px;
+  border: 1px solid rgba(124, 201, 255, 0.3);
+  border-radius: 8px;
+  background: rgba(124, 201, 255, 0.1);
+}
+.ai-banner.local {
+  border-color: rgba(247, 215, 116, 0.34);
+  background: rgba(247, 215, 116, 0.1);
+}
+.ai-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--mint);
+  box-shadow: 0 0 22px rgba(132, 224, 193, 0.8);
+}
+.ai-banner.local .ai-dot {
+  background: var(--yellow);
+  box-shadow: 0 0 22px rgba(247, 215, 116, 0.65);
+}
+.ai-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 900;
+}
+.ai-sub {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+.top-story {
+  display: grid;
+  grid-template-columns: 12px 1fr;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 189, 138, 0.34);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(255, 189, 138, 0.16), rgba(199, 179, 255, 0.09));
+  box-shadow: var(--shadow);
+}
+.top-story-bar {
+  background: linear-gradient(180deg, var(--peach), var(--rose));
+}
+.top-story-body {
+  padding: 18px;
+}
+.top-story-label {
+  display: inline-flex;
+  margin-bottom: 9px;
+  color: var(--peach);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+.top-story h2 {
+  margin: 0;
+  font-size: clamp(21px, 3vw, 30px);
+  line-height: 1.32;
+}
+.top-story p {
+  margin: 10px 0 0;
+  color: var(--soft);
+  line-height: 1.62;
+}
+.top-story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 13px;
+}
+.section {
+  margin-top: 28px;
+}
+.section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(238, 244, 255, 0.34);
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  font-size: 20px;
+}
+.section-count {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+}
+.category-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 18px 0 9px;
+  color: var(--soft);
+  font-size: 13px;
+  font-weight: 900;
+}
+.category-title::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.article {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 10px;
+  min-height: 260px;
+  padding: 16px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02)),
+    var(--card);
+  box-shadow: var(--shadow);
+}
+.article::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 5px;
+  background: var(--blue);
+}
+.article:nth-child(6n + 2)::before { background: var(--mint); }
+.article:nth-child(6n + 3)::before { background: var(--peach); }
+.article:nth-child(6n + 4)::before { background: var(--lav); }
+.article:nth-child(6n + 5)::before { background: var(--rose); }
+.article:nth-child(6n)::before { background: var(--yellow); }
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding-top: 4px;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 23px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--soft);
+  font-size: 11px;
+  font-weight: 800;
+}
+.pill.official { background: rgba(132, 224, 193, 0.15); color: #d9fff2; }
+.pill.agency { background: rgba(139, 199, 255, 0.16); color: #dbeeff; }
+.pill.specialty { background: rgba(199, 179, 255, 0.16); color: #eee7ff; }
+.pill.financial { background: rgba(247, 215, 116, 0.16); color: #fff4bc; }
+.pill.gemini { background: rgba(132, 224, 193, 0.16); color: #d9fff2; }
+.pill.local { background: rgba(247, 215, 116, 0.15); color: #fff4bc; }
+.pill.update { background: rgba(255, 159, 189, 0.16); color: #ffe1eb; }
+.pill.shortage { background: rgba(255, 189, 138, 0.16); color: #ffe6d2; }
+.article-title {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.48;
+}
+.summary {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.62;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-height: 24px;
+}
+.tag {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+}
+.article-footer {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  align-items: end;
+  padding-top: 6px;
+}
+.source {
+  min-width: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.source strong {
+  display: block;
+  overflow: hidden;
+  color: var(--soft);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.origin {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.origin:hover { text-decoration: underline; }
+.status {
+  padding: 44px 20px;
+  border: 1px dashed rgba(180, 199, 231, 0.26);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  text-align: center;
+}
+@media (max-width: 1040px) {
+  .metrics,
+  .news-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .masthead-top,
+  .metrics,
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+  .actions {
+    justify-content: stretch;
+  }
+  .button {
+    flex: 1;
+  }
+}
+@media (max-width: 560px) {
+  .shell {
+    width: min(100% - 24px, 1260px);
+  }
+  .brand {
+    align-items: flex-start;
+  }
+  .teddy {
+    width: 52px;
+    height: 52px;
+  }
+  .actions,
+  .article-footer {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="shell masthead-top">
+    <div class="brand">
+      <svg class="teddy" viewBox="0 0 100 100" role="img" aria-label="테디베어">
+        <circle class="fur" cx="27" cy="24" r="15"></circle>
+        <circle class="fur" cx="73" cy="24" r="15"></circle>
+        <circle class="inner" cx="27" cy="24" r="9"></circle>
+        <circle class="inner" cx="73" cy="24" r="9"></circle>
+        <circle class="fur" cx="50" cy="48" r="31"></circle>
+        <ellipse class="inner" cx="50" cy="56" rx="18" ry="14"></ellipse>
+        <circle class="ink" cx="39" cy="43" r="4"></circle>
+        <circle class="ink" cx="61" cy="43" r="4"></circle>
+        <circle fill="#fff" cx="40.5" cy="41.5" r="1.2"></circle>
+        <circle fill="#fff" cx="62.5" cy="41.5" r="1.2"></circle>
+        <ellipse class="ink" cx="50" cy="53" rx="5.2" ry="3.7"></ellipse>
+        <path d="M44 59 Q50 64 56 59" fill="none" stroke="#3b2a1d" stroke-width="2" stroke-linecap="round"></path>
+        <circle class="blush" cx="34" cy="53" r="5"></circle>
+        <circle class="blush" cx="66" cy="53" r="5"></circle>
+        <ellipse class="fur" cx="50" cy="85" rx="23" ry="14"></ellipse>
+        <polygon class="tie" points="50,69 46,77 50,83 54,77"></polygon>
+      </svg>
+      <div>
+        <p class="kicker">DARK NEWS CARD BRIEFING</p>
+        <h1>HCSA's News Report</h1>
+        <p class="deck">AI, Tech, Security, Economy and Market Intelligence</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="button" id="reload-button" type="button">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36"></path><path d="M21 3v6h-6"></path></svg>
+        새로고침
+      </button>
+      <button class="button primary" id="manual-button" type="button">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14"></path><path d="M5 12h14"></path></svg>
+        수동 업데이트
+      </button>
+    </div>
+  </div>
+  <div class="tabs-wrap">
+    <nav class="shell tabs" id="tabs" aria-label="뉴스 카테고리"></nav>
+  </div>
+</header>
+
+<main class="shell">
+  <section class="metrics" aria-label="리포트 정보">
+    <div class="metric"><span>뉴스 업데이트 시간</span><strong id="generated-at">-</strong></div>
+    <div class="metric"><span>다음 업데이트 시간</span><strong id="next-update-at">-</strong></div>
+    <div class="metric"><span>뉴스 수집 범위</span><strong id="window-range">-</strong></div>
+    <div class="metric"><span>뉴스 갯수</span><strong id="total-count">-</strong></div>
+  </section>
+
+  <section class="ai-banner local" id="ai-banner" aria-label="요약 방식">
+    <div class="ai-dot"></div>
+    <div>
+      <p class="ai-title" id="ai-title">자체 요약이 반영 되어 있습니다</p>
+      <p class="ai-sub" id="ai-sub">Gemini API가 없거나 비활성화된 경우 로컬 선별/요약으로 정상 표시됩니다.</p>
+    </div>
+  </section>
+
+  <section class="top-story" id="top-story" aria-label="TOP STORY">
+    <div class="top-story-bar"></div>
+    <div class="top-story-body">
+      <span class="top-story-label">TOP STORY</span>
+      <h2>뉴스를 불러오는 중입니다.</h2>
+      <p>잠시만 기다려주세요.</p>
+      <div class="top-story-meta"></div>
+    </div>
+  </section>
+
+  <div id="content" class="status">뉴스를 불러오는 중입니다.</div>
+</main>
+
+<script>
+const SECTOR_ORDER = ["전체", "AI", "Tech", "사이버보안", "국내 경제·증시", "국제 경제·증시", "증시 산업별"];
+const SOURCE_TIER_LABELS = { official: "공식", agency: "통신", specialty: "전문", financial: "금융", general: "일반" };
+const SUMMARY_LABELS = { gemini: "Gemini", local: "자체" };
+
+// 수동 업데이트 버튼 비밀번호: 원하는 값으로 변경하세요.
+// 주의: 정적 GitHub Pages 코드에 들어가는 값이라 보안용 비밀값으로 쓰면 안 됩니다.
+// 실제 실행 권한은 GitHub 로그인/저장소 권한으로 보호됩니다.
+const MANUAL_UPDATE_PASSWORD = "CHANGE_ME_MANUAL_PASSWORD";
+
+const state = { active: "전체", report: { items: [] } };
+
+document.getElementById("reload-button").addEventListener("click", loadNews);
+document.getElementById("manual-button").addEventListener("click", openManualWorkflow);
+
+async function loadNews() {
+  const content = document.getElementById("content");
+  content.className = "status";
+  content.textContent = "뉴스를 불러오는 중입니다.";
+  try {
+    const response = await fetch(`data/news_latest.json?t=${Date.now()}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.report = await response.json();
+    render();
+  } catch (error) {
+    content.className = "status";
+    content.textContent = `뉴스를 불러오지 못했습니다. ${error.message}`;
+  }
+}
+
+function render() {
+  renderMetrics();
+  renderAiBanner();
+  renderTabs();
+  renderTopStory();
+  renderContent();
+}
+
+function renderMetrics() {
+  const report = state.report;
+  document.getElementById("generated-at").textContent = formatKst(report.generated_at);
+  document.getElementById("next-update-at").textContent = formatKst(report.next_update_at);
+  document.getElementById("window-range").textContent = report.window
+    ? `${formatKst(report.window.from)} - ${formatKst(report.window.to)}`
+    : "-";
+  const totals = report.totals || {};
+  document.getElementById("total-count").textContent = `${totals.collected || 0} / ${totals.expected || 0}`;
+}
+
+function renderAiBanner() {
+  const ai = state.report.ai || {};
+  const banner = document.getElementById("ai-banner");
+  const provider = ai.provider === "gemini" ? "gemini" : "local";
+  banner.className = `ai-banner ${provider === "gemini" ? "" : "local"}`.trim();
+  document.getElementById("ai-title").textContent = ai.label || (provider === "gemini" ? "Gemini의 요약이 반영되어 있습니다" : "자체 요약이 반영 되어 있습니다");
+  const details = provider === "gemini"
+    ? `Gemini가 후보 선별과 한줄요약 보정에 참여했습니다. 이번 실행 ${ai.gemini_requests_this_run || 0}회, 오늘 ${ai.gemini_requests_today || 0}회 호출.`
+    : `Gemini API 미사용 또는 오류 발생 시 로컬 선별/요약으로 정상 표시됩니다.${ai.gemini_disabled_reason ? ` (${ai.gemini_disabled_reason})` : ""}`;
+  document.getElementById("ai-sub").textContent = details;
+}
+
+function renderTabs() {
+  const tabs = document.getElementById("tabs");
+  tabs.replaceChildren();
+  const sectors = SECTOR_ORDER.filter((sector) => sector === "전체" || state.report.items?.some((item) => item.sector === sector));
+  for (const sector of sectors) {
+    const button = document.createElement("button");
+    button.className = `tab${state.active === sector ? " active" : ""}`;
+    button.type = "button";
+    button.textContent = sector;
+    button.addEventListener("click", () => {
+      state.active = sector;
+      renderTabs();
+      renderTopStory();
+      renderContent();
+    });
+    tabs.append(button);
+  }
+}
+
+function renderTopStory() {
+  const box = document.getElementById("top-story");
+  const visible = getVisibleItems();
+  const top = [...visible].sort((a, b) => (b.score || 0) - (a.score || 0))[0];
+  const title = box.querySelector("h2");
+  const summary = box.querySelector("p");
+  const meta = box.querySelector(".top-story-meta");
+  meta.replaceChildren();
+  if (!top) {
+    title.textContent = "수집된 뉴스가 없습니다.";
+    summary.textContent = "수집 결과를 확인할 수 없습니다.";
+    return;
+  }
+  title.textContent = top.title || "";
+  summary.textContent = top.summary || "요약 정보가 없습니다.";
+  meta.append(pill(top.category || top.sector));
+  meta.append(pill(top.source || "-"));
+  meta.append(pill(formatKst(top.published_at)));
+  meta.append(pill(SOURCE_TIER_LABELS[top.source_tier] || "일반", top.source_tier || "general"));
+}
+
+function renderContent() {
+  const content = document.getElementById("content");
+  const items = state.report.items || [];
+  content.className = "";
+  content.replaceChildren();
+  if (!items.length) {
+    content.className = "status";
+    content.textContent = "수집된 뉴스가 없습니다.";
+    return;
+  }
+  const visibleSectors = SECTOR_ORDER.filter((sector) => sector !== "전체" && (state.active === "전체" || state.active === sector));
+  for (const sector of visibleSectors) {
+    const sectorItems = items.filter((item) => item.sector === sector);
+    if (!sectorItems.length) continue;
+    content.append(renderSection(sector, sectorItems));
+  }
+}
+
+function renderSection(sector, items) {
+  const section = document.createElement("section");
+  section.className = "section";
+  const head = document.createElement("div");
+  head.className = "section-head";
+  const title = document.createElement("h2");
+  title.className = "section-title";
+  title.append(sectionIcon(), document.createTextNode(sector));
+  const count = document.createElement("span");
+  count.className = "section-count";
+  count.textContent = `${items.length}건`;
+  head.append(title, count);
+  section.append(head);
+  if (sector === "증시 산업별") {
+    const grouped = groupBy(items, (item) => item.category || "기타");
+    for (const [category, categoryItems] of Object.entries(grouped)) {
+      const categoryTitle = document.createElement("div");
+      categoryTitle.className = "category-title";
+      categoryTitle.textContent = category;
+      section.append(categoryTitle, renderList(categoryItems));
+    }
+    return section;
+  }
+  section.append(renderList(items));
+  return section;
+}
+
+function renderList(items) {
+  const list = document.createElement("div");
+  list.className = "news-grid";
+  for (const item of items) list.append(renderArticle(item));
+  return list;
+}
+
+function renderArticle(item) {
+  const article = document.createElement("article");
+  article.className = "article";
+  const meta = document.createElement("div");
+  meta.className = "article-meta";
+  meta.append(pill(item.category || item.sector));
+  meta.append(pill(formatKst(item.published_at)));
+  meta.append(pill(SOURCE_TIER_LABELS[item.source_tier] || "일반", item.source_tier || "general"));
+  meta.append(pill(SUMMARY_LABELS[item.summary_provider] || "자체", item.summary_provider === "gemini" ? "gemini" : "local"));
+  if (item.is_update) meta.append(pill("업데이트", "update"));
+  if (item.shortage) meta.append(pill("수집 부족", "shortage"));
+
+  const title = document.createElement("h3");
+  title.className = "article-title";
+  title.textContent = item.title || "";
+
+  const summary = document.createElement("p");
+  summary.className = "summary";
+  summary.textContent = item.summary || "요약 정보가 없습니다.";
+
+  const tags = document.createElement("div");
+  tags.className = "tags";
+  for (const tag of item.tags || []) {
+    const span = document.createElement("span");
+    span.className = "tag";
+    span.textContent = `#${tag}`;
+    tags.append(span);
+  }
+
+  const footer = document.createElement("div");
+  footer.className = "article-footer";
+  const source = document.createElement("div");
+  source.className = "source";
+  source.append(document.createTextNode("매체명"));
+  const strong = document.createElement("strong");
+  strong.textContent = item.source || "-";
+  source.append(strong);
+  const link = document.createElement("a");
+  link.className = "origin";
+  link.href = item.url || "#";
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.append(document.createTextNode("원문"));
+  link.append(externalIcon());
+  footer.append(source, link);
+  article.append(meta, title, summary, tags, footer);
+  return article;
+}
+
+function getVisibleItems() {
+  const items = state.report.items || [];
+  if (state.active === "전체") return items;
+  return items.filter((item) => item.sector === state.active);
+}
+
+function pill(text, className = "") {
+  const span = document.createElement("span");
+  span.className = `pill ${className}`.trim();
+  span.textContent = text || "-";
+  return span;
+}
+
+function groupBy(items, keyFn) {
+  return items.reduce((acc, item) => {
+    const key = keyFn(item);
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(item);
+    return acc;
+  }, {});
+}
+
+function sectionIcon() {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("class", "icon");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("aria-hidden", "true");
+  svg.innerHTML = '<path d="M4 6h16"></path><path d="M4 12h16"></path><path d="M4 18h11"></path>';
+  return svg;
+}
+
+function externalIcon() {
+  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  svg.setAttribute("class", "icon");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("aria-hidden", "true");
+  svg.innerHTML = '<path d="M7 17 17 7"></path><path d="M7 7h10v10"></path>';
+  return svg;
+}
+
+function formatKst(value) {
+  if (!value) return "-";
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit"
+  }).format(new Date(value));
+}
+
+function openManualWorkflow() {
+  const password = prompt("수동 업데이트 비밀번호를 입력하세요.");
+  if (password !== MANUAL_UPDATE_PASSWORD) {
+    alert("비밀번호가 올바르지 않습니다.");
+    return;
+  }
+  const repo = inferGithubRepo();
+  if (!repo) {
+    alert("GitHub Pages 배포 후에는 GitHub Actions 수동 실행 화면으로 연결됩니다.");
+    return;
+  }
+  window.open(`https://github.com/${repo}/actions/workflows/collect.yml`, "_blank", "noopener,noreferrer");
+}
+
+function inferGithubRepo() {
+  const host = window.location.hostname;
+  const path = window.location.pathname.split("/").filter(Boolean);
+  if (!host.endsWith("github.io") || !path.length) return "";
+  return `${host.replace(".github.io", "")}/${path[0]}`;
+}
+
+loadNews();
+</script>
+</body>
+</html>
