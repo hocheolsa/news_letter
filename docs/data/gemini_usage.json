@@ -1,9 +1,10 @@
 {
-  "date": "2026-06-14",
-  "requests": 25,
-  "estimated_input_tokens": 68247,
-  "estimated_output_tokens": 45000,
-  "skipped": 25,
-  "errors": 2,
-  "model": "gemini-2.5-flash-lite"
+  "date": "2026-06-15",
+  "requests": 3,
+  "estimated_input_tokens": 8744,
+  "estimated_output_tokens": 5400,
+  "skipped": 9,
+  "errors": 1,
+  "model": "gemini-2.5-flash-lite",
+  "disabled_reason": "Gemini API stopped by status 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.googl"
 }
