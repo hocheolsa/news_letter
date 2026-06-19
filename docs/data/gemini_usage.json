@@ -1,10 +1,10 @@
 {
   "date": "2026-06-19",
-  "requests": 13,
-  "estimated_input_tokens": 44497,
-  "estimated_output_tokens": 23400,
-  "skipped": 12,
-  "errors": 1,
+  "requests": 14,
+  "estimated_input_tokens": 48293,
+  "estimated_output_tokens": 25200,
+  "skipped": 23,
+  "errors": 2,
   "model": "gemini-2.5-flash-lite",
-  "disabled_reason": "Gemini API stopped by status 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.googl"
+  "disabled_reason": "Gemini API server error 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\""
 }
