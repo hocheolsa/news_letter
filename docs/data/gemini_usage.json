@@ -3,8 +3,8 @@
   "requests": 14,
   "estimated_input_tokens": 48293,
   "estimated_output_tokens": 25200,
-  "skipped": 23,
-  "errors": 2,
+  "skipped": 35,
+  "errors": 3,
   "model": "gemini-2.5-flash-lite",
   "disabled_reason": "Gemini API server error 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\""
 }
