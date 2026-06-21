@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-21T18:36:58+09:00",
-  "next_update_at": "2026-06-22T00:36:58+09:00",
+  "generated_at": "2026-06-21T22:49:56+09:00",
+  "next_update_at": "2026-06-22T04:49:56+09:00",
   "window": {
-    "from": "2026-06-20T18:36:58+09:00",
-    "to": "2026-06-21T18:36:58+09:00",
+    "from": "2026-06-20T22:49:56+09:00",
+    "to": "2026-06-21T22:49:56+09:00",
     "timezone": "Asia/Seoul"
   },
   "ai": {
     "provider": "gemini",
     "label": "Gemini의 요약이 반영되어 있습니다",
     "gemini_enabled": true,
-    "gemini_requests_today": 18,
+    "gemini_requests_today": 28,
     "gemini_requests_this_run": 10,
     "gemini_errors_today": 2,
     "gemini_disabled_reason": "",
@@ -18,28 +18,24 @@
   },
   "totals": {
     "expected": 57,
-    "collected": 56,
-    "shortage_groups": 1
+    "collected": 57,
+    "shortage_groups": 0
   },
   "items": [
     {
       "sector": "AI",
       "category": null,
-      "title": "Google, AI 모델·서비스 관련 최신 소식",
-      "source": "The News International",
-      "published_at": "2026-06-20T20:34:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbzZmeXdFS1ZxTGtCbDJPVEFqZmhiUGFXZkhwNU1RTTVPMmdRUzhzNmp2cFJiWG9UT1dlOEJFek1IeVQ4ZXc5WUpVNU1BNEJybW50X0pVVjdnTHY0R2w0aXZfUGFPUnlnbFAyNy1QTWJMTVlpSXhRNnk5R0VvVWtpNDFWSDZ1YnpkSEw0S1RtaGx4b1Ita3doWm1Ub1FyZFJGWHFhT0RRSFQ2TGdK?oc=5",
-      "summary": "중국 AI 모델들이 글로벌 사용량에서 챗GPT와 구글 제미나이를 앞질렀다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "AI 모델",
-        "글로벌 사용량",
-        "중국"
-      ],
-      "editor_reason": "AI 모델 경쟁 구도 변화",
+      "title": "Anthropic, AI 모델·서비스 관련 최신 소식",
+      "source": "Technobezz",
+      "published_at": "2026-06-21T04:38:53+09:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1JfT1dCeXBJY1AxeTBOWDhJMWFUMm9HUHZENHBPcGNkR0QzalVIRHNUVEp3RUg2WnlMZFFXNnphSDF6ZnNORG1yOU02WFY5ajM5d2RzdlZoTC1PRk1YZmUzSm1EX1dNc3R5cFc0d09POVJiejZfTTBGa28xN1FpME9uNWxWOUFLZkxlSTRPTlJNS2pTZWY4T2g5MTRvTXR5eTBubExOS05HNTNFQWc2RUlKUFR5eWotbTRoYQ?oc=5",
+      "summary": "Technobezz가 다룬 Anthropic의 AI 모델·서비스 소식으로, 관련 산업과 시장 흐름을 점검할 필요가 있습니다.",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
       "is_update": false,
       "shortage": false,
-      "score": 87,
+      "score": 19,
       "source_tier": "general"
     },
     {
@@ -49,17 +45,17 @@
       "source": "뉴시스",
       "published_at": "2026-06-21T07:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RVzVKTHZqM1c3ZTc2V2lENFRqbW9rXzdEb0NHa01tRzdyc0dLSWpLczFpN2hjdGpRODlfUGJRRTEzaVc2MjJhV2pyNWE3OW41NUQxR1U1YW5mTk9xZGhPNtIBeEFVX3lxTE5DLUpGNF80anVZT0hFcFZBcmNWTVhkM2ZRVlktUVRHU0JlbmlSVUpfTHpSa2hTSzRURkFBVDBnbFNEbXVsSFlvSjZka0NWOFZOOFd5b05YNW1GODA1Q2dPZUdyMzU4OEV3LXV2ZzdVd3B4SWQ0QnNLVA?oc=5",
-      "summary": "AI 에이전트 시대 개막과 함께 생체인증 관련주가 주목받고 있다.",
+      "summary": "AI 에이전트 시대가 본격화되면서 생체인증 관련 기업들이 주목받고 있다.",
       "summary_provider": "gemini",
       "tags": [
         "AI 에이전트",
         "생체인증",
-        "주목"
+        "시장 동향"
       ],
-      "editor_reason": "AI 시대 도래와 관련 산업 전망",
+      "editor_reason": "AI 에이전트 시대 도래와 관련 산업 동향을 제시하여 중요도 높음",
       "is_update": true,
       "shortage": false,
-      "score": 81,
+      "score": 84,
       "source_tier": "agency"
     },
     {
@@ -69,15 +65,15 @@
       "source": "미래경제",
       "published_at": "2026-06-21T12:10:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oS0dFLTRLc2doSktMN2ctRktYUkFmZFBxdmZzcjc4MGo4ZEpVZF9SUlhkbDFja2k1bGdzR1ZrVWQ2cDdQRTJObU4yQmtOUHd6WFBzcFFOczJkQTd2V3hzd2hoTEFoaFpTd3h1ag?oc=5",
-      "summary": "더존비즈온이 'ONE AI 노무도우미'를 출시하며 기업 경영 전반을 아우르는 AI 에이전트 라인업을 완성했다.",
+      "summary": "더존비즈온이 'ONE AI 노무도우미'를 출시하며 기업 경영 전반을 지원하는 AI 에이전트 라인업을 완성했다.",
       "summary_provider": "gemini",
       "tags": [
         "더존비즈온",
         "AI 에이전트",
-        "노무도우미"
+        "출시"
       ],
-      "editor_reason": "신규 AI 서비스 출시 소식",
-      "is_update": false,
+      "editor_reason": "AI 에이전트 출시 소식으로 관련 키워드 포함 및 신뢰도 높은 매체",
+      "is_update": true,
       "shortage": false,
       "score": 97,
       "source_tier": "general"
@@ -85,38 +81,42 @@
     {
       "sector": "AI",
       "category": null,
-      "title": "매일경제, AI 모델·서비스 관련 최신 소식",
-      "source": "매일경제",
-      "published_at": "2026-06-21T15:15:21+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44cDV3OVhHZGc3c3FhSHc2OXQ5alVHVFpaU080TUxiLVRkZnBWRkVhdjhUdWV4YldDUFVSd3pkNmI2dERWampfeldhZw?oc=5",
-      "summary": "SK텔레콤이 기업용 AI 전환에 속도를 내며 자체 AI 서비스 개발에 집중하고 있다.",
+      "title": "The Indian Express, AI 모델·서비스 관련 최신 소식",
+      "source": "The Indian Express",
+      "published_at": "2026-06-21T20:04:05+09:00",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQby02dllFNzRPZm9sSTVMNnRvVUNJWi00eVZHb1ZQYnVCYkNxX0F4ZXV4eGRxcmNQcDhOWEN0QkMwbGE3WnoxTnBGSDcyZkJ3dVQyX09oNVdsSUpzM2p1b0ZKakFXdzdRQnA2RnRVUDlORFVGU0dEblZKZm1XSHdRSWw0TTF0Tk9XYTFYelkzR3RBeFFKQ0ZEeTNEalpEeERzNUVhdkozVDgxU0xhbjM4YXBrd2ZtcTAtOURqcU0tZVd4a1ZJ0gHEAUFVX3lxTFBvLTZ2WUU3NE9mb2xJNUw2dG9VQ0laLTR5VkdvVlBidUJiQ3FfQXhldXh4ZHFyY1BwOE5YQ3RCQzBsYTdaejFOcEZINzJmQnd1VDJfT2g1V2xJSnMzanVvRkpqQVd3N1FCcDZGdFVQOU5EVUZTR0RuVkpmbVdId1FJbDRNMXROT1dhMVh6WTNHdEF4UUpDRkR5M0RqWkR4RHM1RWF2SjNUODFTTGFuMzhhcGt3Zm1xMC05RGpxTS1lV3hrVkk?oc=5",
+      "summary": "AI 에이전트 루프가 프롬프팅을 대체할 가능성에 대한 논의가 진행 중이다.",
       "summary_provider": "gemini",
       "tags": [
-        "SK텔레콤",
-        "기업용 AI",
-        "AI 전환"
+        "AI 에이전트",
+        "프롬프팅",
+        "기술 동향"
       ],
-      "editor_reason": "국내 기업 AI 서비스 강화 소식",
+      "editor_reason": "AI 에이전트의 발전 방향과 기술적 함의를 다루고 있어 중요도 높음",
       "is_update": false,
       "shortage": false,
       "score": 76,
-      "source_tier": "financial"
+      "source_tier": "general"
     },
     {
       "sector": "AI",
       "category": null,
-      "title": "“AI 잘 구축된 기업 원격근무땐 청년들 지방 떠날 일 없죠”",
-      "source": "서울경제",
-      "published_at": "2026-06-21T17:57:47+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4xQkRaNy1hVFY4Y3YzUmktT1F0VmFwXzc0RGR1eXgyQ1hDcGlzNEx3YnoyMmxVVHJnMFVJd3p5TWlHcms5Wm9VRkFlRXBNRUR6RmfSAVNBVV95cUxNYWgxV3Rzb2ZyX2gwUW9EcFEwc21wakFubi1BQ1FpUWZEeWktb0pLZ2lVOVM0VTZDZVQ1eXRJQlppNTJTVjgzQ3F5OXNxY25UUkY3QQ?oc=5",
-      "summary": "“AI 잘 구축된 기업 원격근무땐 청년들 지방 떠날 일 없죠” 서울경제",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
+      "title": "The News International, AI 모델·서비스 관련 최신 소식",
+      "source": "The News International",
+      "published_at": "2026-06-21T22:37:54+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZngtdWx1c0daZVdvTzRoV2E5aWVMNXVUQTRHN000LTRlVm01Tl9UcktjN3FSNDhndGxTNnBXU1V6MGY0X0k1SWkyVmJrZ2RRTUUycDdDSS1NSHlzUTFMZnVGdnlPWW4yQXU0LUEtTkhwNUFGX1BjZmZSWU14SEFLV0F0U3lVNFFfSkNfa19RVmwwSkRhalhjTmthZFZidmw1VTFhSzhSdE1XZ00?oc=5",
+      "summary": "에스토니아는 AI 에이전트 규제를 위해 디지털 신원 시스템을 활용하는 방안을 모색 중이다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "AI 에이전트",
+        "규제",
+        "에스토니아"
+      ],
+      "editor_reason": "AI 에이전트 규제 관련 구체적인 국가 사례를 제시하여 중요도 높음",
       "is_update": false,
       "shortage": false,
-      "score": 18,
-      "source_tier": "financial"
+      "score": 81,
+      "source_tier": "general"
     },
     {
       "sector": "Tech",
@@ -125,38 +125,18 @@
       "source": "Quantum Zeitgeist",
       "published_at": "2026-06-20T23:47:57+09:00",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1nVElOMjluSU9fZy1HVnJHNjlTWktYVENFRVdVWXZ2TmF4ZXRlcG5Bdk55YnlzeFdkM0RGaTRLYmE2RU1sOHZPMTBhXzJLTkJsZ1UteWVfdzNJOTdqRHppd2V4dTRranVwLWJ0R0lRZk5oc0VTajhZRERn?oc=5",
-      "summary": "AMD의 Alveo 가속기가 양자 시뮬레이션 성능을 30배 향상시켜, 양자컴퓨팅 연구 개발에 기여할 전망이다.",
+      "summary": "AMD의 Alveo 가속기가 양자 시뮬레이션 성능을 최대 30배 향상시켜 연구 개발에 기여할 전망입니다.",
       "summary_provider": "gemini",
       "tags": [
         "AMD",
-        "양자 시뮬레이션",
+        "양자",
         "가속기"
       ],
-      "editor_reason": "AMD의 기술 발전이 양자컴퓨팅 연구 효율성을 높일 수 있음을 시사한다.",
+      "editor_reason": "AMD 가속기의 양자 시뮬레이션 성능 향상",
       "is_update": true,
       "shortage": false,
-      "score": 85,
+      "score": 80,
       "source_tier": "specialty"
-    },
-    {
-      "sector": "Tech",
-      "category": null,
-      "title": "Nvidia, 양자·반도체·메모리 기술 관련 최신 소식",
-      "source": "Stocktwits",
-      "published_at": "2026-06-21T05:16:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRUo1djh5SVBXMWxZOHV2czlrbDFneEZzNGFXVXNuNGQtd2NFWk5fRFA2dDNOSmhYV2NyZk82eFdtc0lwYXgtRkVoV2F4c3kyNDNkcUdpTm1uMFItUjBSVFF0NVlobkFDVWM1UXZ6UnJXcUl5aURHZWVoLUsyUF9KWV9NWnBmUkVYXzBfcDF1UFVYVWs0WkMzb0VMb25Fdlk0WVZuSUtQbGhfMTZDOFd6N182UWZvUlBMWHZOVWJ2UWVNQQ?oc=5",
-      "summary": "엔비디아 CEO가 AI를 양자컴퓨터의 제어 평면으로 언급하며, 양자컴퓨팅 관련 주가 상승에 대한 기대감을 높였다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "엔비디아",
-        "AI",
-        "양자컴퓨터"
-      ],
-      "editor_reason": "AI와 양자컴퓨터의 연관성을 제시하며 기술 발전 방향을 엿볼 수 있다.",
-      "is_update": true,
-      "shortage": false,
-      "score": 78,
-      "source_tier": "general"
     },
     {
       "sector": "Tech",
@@ -165,18 +145,17 @@
       "source": "Chosunbiz",
       "published_at": "2026-06-21T10:46:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jcmVwZ0MyVDFGZ1FpbW9tZ0cwOHFyWjBPc2RVZk9PVThqeHc2Rk1LeFNBbFREVmR4eVJzYThhdjVxWWNJcFlnLXhQTWE3TWg5Q3czRXp1Z3JobG1IOXRvbDZJNFdPX2RaWWNRTkU2aU1Fa3dlMzZQNE9R0gGOAUFVX3lxTE5OcEZnanVBMkg4YTNCTXdjTUdpMWtJckZiV21LNmc1cXdfczdwS0dqU2VCaUxpZjZEYVdHUlA2cWluUHpCMklOTVhpWlpSRkp6eFo3aVpJSUJ1R29uTjVnTzNORzVpaFRrSjI1OWRVRUNpaHZuckYyUVJYdHREUkhWU0h1bmNXS0wzcGxUcXc?oc=5",
-      "summary": "KT가 양자컴퓨터 시대에 대비한 미래 네트워크 보안 전략을 발표하며 양자내성 기술 확보에 나섰다.",
+      "summary": "KT가 한국 미래 네트워크 강화를 위해 종단간 양자 보안 솔루션을 출시했습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "KT",
-        "양자내성",
+        "양자",
         "보안",
-        "네트워크"
+        "KT"
       ],
-      "editor_reason": "KT의 양자 보안 전략 발표는 양자컴퓨터 시대 대비의 중요성을 보여준다.",
+      "editor_reason": "KT의 종단간 양자 보안 솔루션 출시",
       "is_update": true,
       "shortage": false,
-      "score": 100,
+      "score": 88,
       "source_tier": "general"
     },
     {
@@ -186,77 +165,99 @@
       "source": "매일경제",
       "published_at": "2026-06-21T15:17:44+09:00",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE10TWtTckZrV1JrNEt0Uy1YMU9IOG9HT2FzRlF4NDFHWWh4dEJvMVJoZWoyc0R0aWwxdjA0WmhGeEVZNWNoazJmcVloNA?oc=5",
-      "summary": "KT가 양자컴퓨터 시대에 대비한 미래 네트워크 보안 전략을 발표하며 양자내성 기술 확보에 나섰다.",
+      "summary": "KT가 양자컴퓨터 시대에 대비한 전방위적 보안 전략을 공개하며 미래 네트워크 보호에 나섰습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "KT",
-        "양자내성",
+        "양자컴퓨터",
         "보안",
-        "네트워크"
+        "KT"
       ],
-      "editor_reason": "Tech-core-04와 동일한 내용으로, KT의 양자 보안 전략 발표를 다룬다.",
+      "editor_reason": "KT의 양자컴퓨터 대비 보안 전략 발표",
       "is_update": true,
       "shortage": false,
-      "score": 98,
+      "score": 96,
       "source_tier": "financial"
     },
     {
       "sector": "Tech",
       "category": null,
-      "title": "CT Mirror, 양자·반도체·메모리 기술 관련 최신 소식",
-      "source": "CT Mirror",
-      "published_at": "2026-06-21T18:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTnNxZUU5VlJSMzdEc0E5ZUE5Q1p0c2RYYmZiVmxFS2tkSUp1TlZqOEowMWFPZHcySS1MbUhUQ21tTVJzNms1RHpsY0VrTjEwNHgxSWJFSWVfRHlXcmhJMU0yamIyekQ2eGhRc1YxRDRXeVF2VnB1b3dtSHFVUVNZRkZwdw?oc=5",
-      "summary": "미국 코네티컷주가 양자컴퓨팅 산업 육성을 위한 정책을 추진하며 관련 생태계 조성에 힘쓰고 있다.",
+      "title": "삼성, 글로벌 전략회의…HBM 공급 확대 점검",
+      "source": "한국경제",
+      "published_at": "2026-06-21T18:24:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jYlNyNlV4YjZ1RWQ1NHhmWEMzbmZ1R3RzazZEczVrdk54aTBBMjNmU2xnYWkzZDBpQmMtMUVlM0JBR2d5TEFieFZNeThORC13M2lwZ2ppYmpmQdIBVEFVX3lxTE0wZ0ZDUWRDYTk0S1BhOUpGM3FEV1pON1pYSjBueWVXcnNuekNLX0VKZ204TkNWY2lJSDhtOTdVclEwNFdQaGFuTVdaQVI2YThkYV9mMA?oc=5",
+      "summary": "삼성전자가 글로벌 전략회의를 통해 HBM 공급 확대 방안을 점검하며 메모리 시장 경쟁력 강화에 나섰습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "코네티컷",
-        "양자컴퓨팅",
-        "산업 육성"
+        "HBM",
+        "메모리",
+        "삼성"
       ],
-      "editor_reason": "지역 정부의 양자컴퓨팅 산업 육성 의지를 보여주는 사례이다.",
-      "is_update": true,
-      "shortage": false,
-      "score": 89,
-      "source_tier": "general"
-    },
-    {
-      "sector": "사이버보안",
-      "category": null,
-      "title": "8만6644대의 FortiGate 기기에 취약점... CISA와 NCSC, 포티넷 사용자에게 ‘경고’",
-      "source": "보안뉴스",
-      "published_at": "2026-06-20T19:30:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1jcnU3YkZkTzJQbVR4a1U2YjN3aEZCdVdYTWZSeEctU0laVXpmZHFSSVhMcGxOUEFJNzVKcmNSMVZHbHpkeDhCZjhtTnpKYVA3UHNPblFOSEhZTWFRTXV6eFdqS0xMVzFMYjhGM1ln?oc=5",
-      "summary": "CISA와 NCSC가 8만 6천여 대의 FortiGate 기기에서 발견된 취약점에 대해 포티넷 사용자에게 경고했다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "취약점",
-        "경고",
-        "CISA"
-      ],
-      "editor_reason": "다수 기기 취약점 발견 및 경고 발령",
-      "is_update": true,
-      "shortage": false,
-      "score": 77,
-      "source_tier": "specialty"
-    },
-    {
-      "sector": "사이버보안",
-      "category": null,
-      "title": "애플 비츠 이어폰, '도청 해킹' 취약점 뒤늦게 패치",
-      "source": "v.daum.net",
-      "published_at": "2026-06-21T13:53:04+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBjVHJINEtTaEc1VUt2LUVDRkZDX2xmMVp4SklsQzU0NFd2ZjgxWW9nWHdodWhoQlhRRjloTThXc0pWTWNOVXc?oc=5",
-      "summary": "애플 비츠 이어폰에서 발생한 '도청 해킹' 취약점이 뒤늦게 패치되었다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "취약점",
-        "패치"
-      ],
-      "editor_reason": "애플 비츠 이어폰의 도청 해킹 취약점 패치",
+      "editor_reason": "삼성전자의 HBM 공급 확대 점검",
       "is_update": false,
       "shortage": false,
-      "score": 89,
+      "score": 81,
+      "source_tier": "financial"
+    },
+    {
+      "sector": "Tech",
+      "category": null,
+      "title": "아마존 “5년 내 완전한 상업용 양자컴퓨터 출시”",
+      "source": "서울경제",
+      "published_at": "2026-06-21T19:17:47+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhTVoxZVFJQXM4QlFpYTNyckNHekNWb21wbFAwcTFublJUYVRMRG9yVFBuZkRpR2lDLUFkRkJnbjBBYUtTaWVFUEswd3V4Q3BheEHSAVNBVV95cUxNS1NqZkktR1hvcGkyb09MSDNvX0IwZUluSUVIT3hILU0ta3BlaWNlMWVqeF80XzNic2xZWE9RaUNRcmZPeGVYcl9hZXFKNjNhaVVvcw?oc=5",
+      "summary": "아마존이 5년 내 완전한 상업용 양자컴퓨터 출시를 목표로 기술 개발에 박차를 가하고 있습니다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "양자컴퓨터",
+        "상용화",
+        "아마존"
+      ],
+      "editor_reason": "아마존의 양자컴퓨터 상용화 목표 발표",
+      "is_update": false,
+      "shortage": false,
+      "score": 100,
+      "source_tier": "financial"
+    },
+    {
+      "sector": "사이버보안",
+      "category": null,
+      "title": "1년3개월간 개인정보 유출통지 안한 듀오…제재는 과태료가 최대",
+      "source": "연합뉴스",
+      "published_at": "2026-06-21T06:08:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1c3JHMEd4SE43aWxVME91elRqNHJaeGpfRk9jdGFVZ2RiWkZILTgzSm8xT2JXUnFvMERSa1NNSHZoTmgyUlBQRUdTRlR1OTBObE5KX0l4MElNNE1xQWNaStIBYEFVX3lxTFA1c3JHMEd4SE43aWxVME91elRqNHJaeGpfRk9jdGFVZ2RiWkZILTgzSm8xT2JXUnFvMERSa1NNSHZoTmgyUlBQRUdTRlR1OTBObE5KX0l4MElNNE1xQWNaSg?oc=5",
+      "summary": "듀오가 1년 3개월간 개인정보 유출 사실을 통지하지 않아 과태료 제재 대상이 되었습니다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "듀오",
+        "개인정보 유출",
+        "통지 지연",
+        "과태료"
+      ],
+      "editor_reason": "개인정보 유출 통지 의무 위반 사례 발생",
+      "is_update": false,
+      "shortage": false,
+      "score": 85,
+      "source_tier": "agency"
+    },
+    {
+      "sector": "사이버보안",
+      "category": null,
+      "title": "양천구시설관리공단, 해킹메일 개인정보 유출 대응 모의훈련 실시",
+      "source": "산경일보",
+      "published_at": "2026-06-21T14:31:15+09:00",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pdjhPT1dXQlhETm9GOEQ3RnpRcldvM1hManFqb3ljRHpTTVltOW8wQ29WUnhjNVNnNFRQWVZLT2k5Tzg1NFl3dU1sc24xVWRrVjdUWFBHRjh2ZmVMclRWWTU3c0UwUDhoTm5oZWVXdFc?oc=5",
+      "summary": "양천구시설관리공단이 해킹 메일을 통한 개인정보 유출에 대비한 모의 훈련을 실시했습니다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "양천구시설관리공단",
+        "해킹 메일",
+        "개인정보 유출",
+        "모의 훈련"
+      ],
+      "editor_reason": "개인정보 유출 대응 훈련 실시로 재발 방지 노력",
+      "is_update": false,
+      "shortage": false,
+      "score": 77,
       "source_tier": "general"
     },
     {
@@ -266,55 +267,62 @@
       "source": "보안뉴스",
       "published_at": "2026-06-21T15:51:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhRGk3c3FkbmlEN1FJTU1TazYxRFByNnRlY1RONXI5eVkyTEctaWMwbmpLMWM3TXFxMmJydkZPRmdmZ0pNSWxEVmFocjNtZEdaRXdNdU8wQ1hLdXNxNGtLWjJKQjBWTDQ1?oc=5",
-      "summary": "시장 정보 플랫폼 Klue에 대한 공급망 공격으로 다수의 사이버 보안 기업이 피해를 입었다.",
+      "summary": "시장 정보 플랫폼 Klue에 대한 공급망 공격으로 다수의 사이버 보안 기업이 피해를 입었습니다.",
       "summary_provider": "gemini",
       "tags": [
+        "Klue",
         "공급망 공격",
+        "사이버 보안",
         "피해"
       ],
-      "editor_reason": "공급망 공격으로 인한 사이버 보안 기업 피해",
-      "is_update": false,
+      "editor_reason": "공급망 공격으로 인한 다수 기업 피해 발생",
+      "is_update": true,
       "shortage": false,
-      "score": 95,
+      "score": 91,
       "source_tier": "specialty"
     },
     {
       "sector": "사이버보안",
       "category": null,
-      "title": "\"'모두의 창업' 정보 유출, 프로젝트 참여 기업 해킹으로 발생\"",
+      "title": "\"'모두의 창업' 정보 유출, 프로젝트 참여 기업 해킹으로 발생\"(종합)",
       "source": "연합뉴스",
-      "published_at": "2026-06-21T16:39:46+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JNlZ5enpFQ0R2UHg0Z2RIaDBZLU0talNnOTU2Mm1RdFFWSUtOSFVlQ3BBbGN1eEVIOHE3dTJRQ2ZJQkJjVllKZkJycjhlNENPV0diNzBfWWxJU3d0Z0NVSNIBYEFVX3lxTE9JNlZ5enpFQ0R2UHg0Z2RIaDBZLU0talNnOTU2Mm1RdFFWSUtOSFVlQ3BBbGN1eEVIOHE3dTJRQ2ZJQkJjVllKZkJycjhlNENPV0diNzBfWWxJU3d0Z0NVSA?oc=5",
-      "summary": "'모두의 창업' 프로젝트 참여 기업의 해킹으로 인해 정보 유출 사고가 발생했다.",
+      "published_at": "2026-06-21T18:12:25+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92R1JKbVRYOXprLWR2dzN1UmlaOU1PUFNHV01CYk5jX0xIVkRqQlJINVlXSHJrbnBDTkRVcjlFWkFzWXl0cXNkakxGRk5iTUl3ZzRSNUgyMTVfYjjSAWBBVV95cUxQYllFYW1xVUU0MHhWNWhvQWRlLWZ1YU5TNDZmaFFRbkZVdEVtWndfMVF1anNkTE9Hb3U2NFgyNmpucHVKWENHOEtxcnZNU2lFQ05IVFlsM3hQUnVQMm5nLTU?oc=5",
+      "summary": "중소벤처기업부 '모두의 창업' 프로젝트 참여 기업 해킹으로 개인정보 유출 사고가 발생했습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "정보 유출",
-        "기업 해킹"
+        "모두의 창업",
+        "개인정보 유출",
+        "해킹",
+        "중기부"
       ],
-      "editor_reason": "프로젝트 참여 기업의 해킹으로 인한 정보 유출",
-      "is_update": false,
+      "editor_reason": "정부 주도 프로젝트의 개인정보 유출 사고",
+      "is_update": true,
       "shortage": false,
-      "score": 101,
+      "score": 99,
       "source_tier": "agency"
     },
     {
       "sector": "사이버보안",
       "category": null,
-      "title": "쯔양 개인정보 유출·공갈 변호사…법원 \"7310만원 배상\"",
-      "source": "뉴시스",
-      "published_at": "2026-06-21T18:13:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1GWldZQUpuaTBFN1k4eldvN0ViRWx5cWcxS2FYMmhQU29RdEtlWUdfWlhZNTdOeGkzU2tzcFZuNWlvWkpSd0hQTllJUm01aktuc21JVGpzZVZfV08xaTFsN9IBeEFVX3lxTFBKV21QUlBVaE5JUFZtVnVBV0NrTElDaHRzal9Qb1Y0cnNXNURMd240V2Z6WXNHeGhqM3Fha1o4UllsY2tpVmFvS1ZIVnBCZWc1dWRYQUVhanMycFY1RndPOU5yRXlOZm11SW9jRUxGWXU1bmhVTkRTMg?oc=5",
-      "summary": "유튜버 쯔양의 개인정보 유출 및 공갈 사건에 대해 법원이 7310만원 배상 판결을 내렸다.",
+      "title": "애플 비츠 이어폰, '도청 해킹' 취약점 뒤늦게 패치",
+      "source": "지디넷코리아",
+      "published_at": "2026-06-21T21:00:10+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1weE9xQ2pPTDZMcUh0YmdNV3NsNm1USzVZbW8yMkFaay1PdUVIM1FpaVk1dU1pRmxrWjRiVFpGY2pOMEV0VUhxajZlZDV4ZVBYRzc2UFhR?oc=5",
+      "summary": "애플 비츠 이어폰에서 도청 해킹이 가능한 취약점이 발견되어 뒤늦게 패치되었습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "개인정보 유출",
-        "법원 판결"
+        "애플",
+        "비츠",
+        "이어폰",
+        "해킹",
+        "취약점"
       ],
-      "editor_reason": "개인정보 유출 관련 중요 판결",
-      "is_update": false,
+      "editor_reason": "애플 제품의 보안 취약점 발견 및 조치",
+      "is_update": true,
       "shortage": false,
       "score": 106,
-      "source_tier": "agency"
+      "source_tier": "general"
     },
     {
       "sector": "국내 경제·증시",
@@ -323,38 +331,18 @@
       "source": "JTBC",
       "published_at": "2026-06-21T02:32:13+09:00",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zVVA0akttUHZ6amIwbHByWGtFZ0YwSFMwRlBTYjY2Q0JxejFtR3VaUXFIVHhZRXczeG1yTzFkMnR2cnJRNjhYYy1DOG1WcXhYcVE?oc=5",
-      "summary": "미국-이란 휴전 소식에 환율 급락하며 코스피 상승세.",
+      "summary": "미국-이란 휴전 소식에 환율은 급락했으나 코스피는 상승세를 보였습니다.",
       "summary_provider": "gemini",
       "tags": [
         "환율",
         "코스피",
-        "급락",
-        "급등"
+        "휴전"
       ],
-      "editor_reason": "환율 급락과 코스피 급등 동시 보도",
+      "editor_reason": "환율 및 증시의 상반된 움직임 설명",
       "is_update": true,
       "shortage": false,
-      "score": 90,
+      "score": 89,
       "source_tier": "general"
-    },
-    {
-      "sector": "국내 경제·증시",
-      "category": null,
-      "title": "6월 환율 1,520원 넘어, 외환위기 후 최고…1,500원대 고착 우려",
-      "source": "연합뉴스",
-      "published_at": "2026-06-21T05:55:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1maWRpYmVFNHVINVRfQjh4U0R5ZC0zaGdkSVlSVDVsdGZVekVOT1MzcmxadC1Kcm5kRFdWRmFTTkZCeHhoN0MydnZtRV9hbHk3WTB6SEx3aW56dzTSAWBBVV95cUxNRjNpOFA2R2Z4bWZuMzN4dFVnODlkZkRVbmdCTjhVbTNITUdHaGo2TDhMVkV3Z3dCYmFDMGZLamRkUXdlMG5WdTlCQmNCOU8wQ2NUczBYeXpyQWxleVkyNlg?oc=5",
-      "summary": "6월 원·달러 환율 외환위기 후 최고치 경신, 1500원대 고착 우려.",
-      "summary_provider": "gemini",
-      "tags": [
-        "환율",
-        "외환위기"
-      ],
-      "editor_reason": "환율 관련 최신 통계 및 전망 제시",
-      "is_update": false,
-      "shortage": false,
-      "score": 70,
-      "source_tier": "agency"
     },
     {
       "sector": "국내 경제·증시",
@@ -363,35 +351,52 @@
       "source": "뉴시스",
       "published_at": "2026-06-21T09:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfOFpNWGo3SVNCZVJaYTU0N2labEtDeFFTRFRlRnZGYlBmb3BRRkNvN0FoMEw3OVRrOW90cnJlU2w2WU9FVUE2SndXOFAtQ2FXZ3JyeG5NejlRbml3X0FTQ2FZc3piUlZtRmxFOG5CTXNTRS1PRG9wbdIBeEFVX3lxTFBfOFpNWGo3SVNCZVJaYTU0N2labEtDeFFTRFRlRnZGYlBmb3BRRkNvN0FoMEw3OVRrOW90cnJlU2w2WU9FVUE2SndXOFAtQ2FXZ3JyeG5NejlRbml3X0FTQ2FZc3piUlZtRmxFOG5CTXNTRS1PRG9wbQ?oc=5",
-      "summary": "코스피 9000선 안착 후 1만피 돌파 가능성, 미국 지표와 마이크론 실적이 관건.",
+      "summary": "코스피가 9000선을 안착하며 1만 포인트 돌파 가능성이 제기되고 있습니다.",
       "summary_provider": "gemini",
       "tags": [
         "코스피",
-        "증시전망"
+        "9000선",
+        "1만포인트"
       ],
-      "editor_reason": "신뢰도 높은 통신사, 최신 이슈 포함",
+      "editor_reason": "주요 지수 동향 및 향후 전망 제시",
       "is_update": true,
       "shortage": false,
-      "score": 106,
+      "score": 104,
       "source_tier": "agency"
     },
     {
       "sector": "국내 경제·증시",
       "category": null,
-      "title": "[단독] “우량·부실 섞인 코스닥 수술”…1부 승격에 ‘실적 성장세’ 도입 검토",
-      "source": "매일경제 마켓",
-      "published_at": "2026-06-21T15:58:26+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MRU9wSHdIMG45MmN4bEFqYkFYWW9tZlFJUEJOU19GVTQ3U2hCdDJoNkFZdHA1cFloT3pHYXZxVnJqb1NNVDFwQ20zLV9yVVo2TkE?oc=5",
-      "summary": "코스닥 시장 질적 개선 위해 1부 승격 시 실적 성장세 도입 검토.",
+      "title": "원달러 환율, 평균 1500원대 될까",
+      "source": "뉴시스",
+      "published_at": "2026-06-21T11:56:12+09:00",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IOW8wVkpBZXJpdGR6Q0ZmOW1jYV9GS050eDg0Vkp4a0tscWdOcHU1Xzg0SGh4TFdDZ0VSaXUydE9rRVVsTXJ6VnpLZzJWc0RXb3RReUZrZC1ESWJHNjduM2FOMDBfTjVGZlRuZm5KdHl5aXBsanQ2cdIBeEFVX3lxTE5IOW8wVkpBZXJpdGR6Q0ZmOW1jYV9GS050eDg0Vkp4a0tscWdOcHU1Xzg0SGh4TFdDZ0VSaXUydE9rRVVsTXJ6VnpLZzJWc0RXb3RReUZrZC1ESWJHNjduM2FOMDBfTjVGZlRuZm5KdHl5aXBsanQ2cQ?oc=5",
+      "summary": "원·달러 환율이 1500원대 안착 가능성이 제기되며 시장의 주목을 받고 있습니다.",
       "summary_provider": "gemini",
       "tags": [
-        "코스닥",
-        "IPO"
+        "환율",
+        "1500원대"
       ],
-      "editor_reason": "코스닥 시장 개선 방안 제시",
+      "editor_reason": "환율의 주요 변동 가능성 및 전망 제시",
       "is_update": false,
       "shortage": false,
-      "score": 83,
+      "score": 77,
+      "source_tier": "agency"
+    },
+    {
+      "sector": "국내 경제·증시",
+      "category": null,
+      "title": "K바이오 350곳, 기술수출 노린다",
+      "source": "한국경제",
+      "published_at": "2026-06-21T17:21:19+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1Q0VYLUxaTEVIckxMVHdTTmY1a1BDUEVqcDgyMW9aLUZxSFVnUS1EN1ZORmpYdkkzTGk1SnFSMXNreWliQ1VQOWUwOXdSbjR3UG1USGh0MktKZ9IBVEFVX3lxTE9uWkhTeTJMd0VQR2FDVDA2SFNiRUlMX3NzOWFyQ3plVzJwbi0yNHdkVjZPdHVqQlhad0ZCbEN3cDAtVzgteldaazV4NHhicW1rSGwyeg?oc=5",
+      "summary": "K바이오 350곳, 기술수출 노린다 이슈가 보도되며 국내 경제·증시 분야의 최신 흐름과 시장 영향을 점검할 필요가 있습니다.",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
+      "is_update": false,
+      "shortage": false,
+      "score": 16,
       "source_tier": "financial"
     },
     {
@@ -400,80 +405,18 @@
       "title": "맥못추는 코스닥…올해 10개 중 6개는 하락",
       "source": "서울경제",
       "published_at": "2026-06-21T17:45:40+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93NWtkNXhCTmEwckxoRmtXRGM3Nl9zVlJ1VWhkM0RRMWhHNVd6ckJZcXEyd19ZY3pDS3BzOG5heGlzano5bTNDOFpqNnNkMjM5QWfSAVNBVV95cUxPdTR5NU5YdmI0dEVFelNTdUh2TDBsbldNR3o1UXplUGNKTFFpbXZFVDFJeXdUQXpJa3l1dlRVSE1HSkpuOGU1eThsR3lFTDlTd1ltSQ?oc=5",
-      "summary": "코스닥 시장 부진, 올해 10개 중 6개 종목 하락세.",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91NHk1Tlh2YjR0RUV6U1N1SHZMMGxuV01HejVRemVQY0pMUWltdkVUMUl5d1RBeklreXV2VFVITUdKSm44ZTV5OGxHeUVMOVN3WW1J0gFTQVVfeXFMT3U0eTVOWHZiNHRFRXpTU3VIdkwwbG5XTUd6NVF6ZVBjSkxRaW12RVQxSXl3VEF6SWt5dXZUVUhNR0pKbjhlNXk4bEd5RUw5U3dZbUk?oc=5",
+      "summary": "코스닥 시장은 부진한 흐름을 보이며 10개 중 6개 종목이 하락했습니다.",
       "summary_provider": "gemini",
       "tags": [
         "코스닥",
         "하락"
       ],
-      "editor_reason": "코스닥 시장 현황 분석",
-      "is_update": false,
+      "editor_reason": "코스닥 시장의 전반적인 부진 상황 전달",
+      "is_update": true,
       "shortage": false,
-      "score": 88,
+      "score": 86,
       "source_tier": "financial"
-    },
-    {
-      "sector": "국제 경제·증시",
-      "category": null,
-      "title": "ECB의 성장 둔화 속 금리 인상에 유로화 수주 최저…연준이 달러 강세 뒷받침",
-      "source": "VT Markets",
-      "published_at": "2026-06-20T19:18:29+09:00",
-      "url": "https://news.google.com/rss/articles/CBMi1AJBVV95cUxPaVdnUHZEaENCS1FISzJPOExMZ0cxMTV5cnA1b3NiZGlQQUIzSW1UMThjZm5mdGhvdU1INHRRWXh0NUgya2JWbmVjU3R1NGZZOGdEaTE2RHBYbEZLcXI1RjdxU05fdHZFSjN6a0lUaXpqZUNaY3JUcTJYd1pDN19zNnRwNzBiWUxjdHR5dFllbll1M0kySXFfYjBTNnFVYnVVVXpvckhTTHdINXFQay1rc3R5aW5rczBQUElIbzl4Ty1haktkTF83UUVFeTFreG5RYU5pLTlTdmJDSzM1b3c5d3RQOXhlZnFrMHJOc05vak9VNldONWx4T2lGSXQ5OFdxQ1d5WGkwek9FUkpTRlpiWHYxc3c3djZSZFdEbkJwVjZLdWhSQWoyU1V5Qnl0NEl0T0wxMEpUVzVkenZoTm1vV2paWmdWX2x3TDQzbmN4Z21mYjlX?oc=5",
-      "summary": "ECB의 금리 인상과 연준의 달러 강세 뒷받침으로 유로화 가치가 하락했다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "ECB",
-        "금리",
-        "연준",
-        "달러"
-      ],
-      "editor_reason": "ECB, 연준, 금리, 달러 동시 언급",
-      "is_update": true,
-      "shortage": false,
-      "score": 88,
-      "source_tier": "general"
-    },
-    {
-      "sector": "국제 경제·증시",
-      "category": null,
-      "title": "달러, 매파적 연준 금리 전망과 미·이란 합의 검토 지속에 연중 최고치에서 하락",
-      "source": "VT Markets",
-      "published_at": "2026-06-20T19:18:40+09:00",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNWTctZVpfWExVam1JdTlibkZ4RnhSSFZHOTNzU0F0RVBrbk5pTF9Ec2hSbnJFdmRxUmVXemZ2cTB4T2lheVR2UV9vaEtWSTRsdFlDVDNvTEMtY2dMNHFyLUUtdUJZZUc3TzllOXpTY1pCZTZRR2ZqVFFZVEFyVkZXQ1o1Wld5OTdobm1EV0p6a1p4aC1tSUtfLU1QWHV3VTB5c1FaUUNOelowR1FOWFRNV1g1WVpkcEcwTWNHSnBsRi1iemJVZEZPX3E0LWc1VFg5Y2FsTTdPa2Q3OWZ4ejFlbWRpSm5UdGxpRW1RaDNyenJ5OUdvb0FndGtqTDU4TmxFVWo2WkhWZV9WOTBhNGJBeUxzZXJaaGNMaUhneVo0a2ZPUUIzblNLc3U5MzBHMDlJRmxzMjc1Nm1vWFNQMHZXS1FzRHAybFowTmVrekhldXZBWVItdkI3ag?oc=5",
-      "summary": "연준의 금리 전망과 미-이란 합의 검토 지속으로 달러가 연중 최고치에서 하락했다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "연준",
-        "달러",
-        "금리"
-      ],
-      "editor_reason": "연준, 달러, 금리 관련 핵심 내용",
-      "is_update": true,
-      "shortage": false,
-      "score": 93,
-      "source_tier": "general"
-    },
-    {
-      "sector": "국제 경제·증시",
-      "category": null,
-      "title": "연준의 매파적 기조에 달러·국채금리 상승…금값 3주 연속 하락세",
-      "source": "VT Markets",
-      "published_at": "2026-06-20T19:18:41+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOb3djTlV3SFpaczRLaE5Cd3I5MjFoUV80WkJzekFTLXR5VktlWERHVGYwdUFGa2REd3J2enY3S1hOa2JScU9lRm9XUWpCM09DSzBHQm9RelBKLW1IemZYVmREZHRQc3Yta1FBckd0TEQtNXdxUU1wX1hzdmxRWXJPRzBibnhyc1RWS1N3ajBMaWZVMm9RZEFOWXl0MHJBV3lNeVp2a3l5QzNrLVpsVkNmNzctR2JqYU85bXAyMHBJMk11b3R1X0hPUG5qWlhZaURGVVZrZWJmMWVjbzhMZGJJb3BrZ1lnbkNIZnEwSXhWN0tTMURITkNsZ29oaWQ2RVFMWUlUaFlGbFZEU05rZnZORUJ6ZHFGOWhxNFUySDhxSlVLSzYxSUZFM2pyS2ZfbjhpNVRGVWpJZnhlcXRaRzMwM3hockpRdHpZdVE?oc=5",
-      "summary": "연준의 매파적 기조로 달러와 국채금리가 상승하며 금값이 3주 연속 하락세를 보였다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "연준",
-        "달러",
-        "금리",
-        "금값"
-      ],
-      "editor_reason": "연준, 달러, 금리, 금값 모두 포함",
-      "is_update": false,
-      "shortage": false,
-      "score": 98,
-      "source_tier": "general"
     },
     {
       "sector": "국제 경제·증시",
@@ -482,33 +425,114 @@
       "source": "gukjenews.com",
       "published_at": "2026-06-21T04:44:39+09:00",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UZnFrbW5TelFTMC1WeUhFeDlUM1dfMm1ZWUxTTk5xLUgxV1I2LTE0MTA0R3JwY1ZwOE00Mml5MW14N0otNU55ZUt2c3ByOHR0bkp4eVhaMU56TTd2b09VdFBjcmNRa1hTYlFEVG13?oc=5",
-      "summary": "연준 우려 완화에 뉴욕증시가 상승하며 S&P500 지수가 7500선을 회복했다.",
+      "summary": "뉴욕증시가 연준의 금리 인하 기대감에 힘입어 상승하며 S&P500 지수가 7500선을 회복했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "뉴욕증시",
+        "연준",
+        "금리"
+      ],
+      "editor_reason": "연준 관련 내용 포함, 증시 상승 소식",
+      "is_update": true,
+      "shortage": false,
+      "score": 84,
+      "source_tier": "general"
+    },
+    {
+      "sector": "국제 경제·증시",
+      "category": null,
+      "title": "종전에도 1500원대…환율 발목 잡는 '연준·유가·달러 수요'",
+      "source": "뉴스1",
+      "published_at": "2026-06-21T07:30:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DMnZpRWlaVEJ6bncxTU5jX2doRnBmYm1NM1UzaFdhYmpZZ1pUMTdheFdJNzk5YnZETmdiRkl1VUwteDB4Y0JGNWt1ZDBaN1ltaFdnTg?oc=5",
+      "summary": "미-이란 종전에도 불구하고 연준의 금리 정책, 국제유가, 달러 수요가 원/달러 환율 상승을 견인하고 있다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "환율",
+        "연준",
+        "국제유가",
+        "달러"
+      ],
+      "editor_reason": "연준, 유가, 달러 등 주요 키워드 포함",
+      "is_update": false,
+      "shortage": false,
+      "score": 75,
+      "source_tier": "general"
+    },
+    {
+      "sector": "국제 경제·증시",
+      "category": null,
+      "title": "[외환-주간] 연준발 강달러는 언제까지…물가·이란·당국에 시선 |",
+      "source": "연합인포맥스",
+      "published_at": "2026-06-21T13:09:02+09:00",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GOHdXVmVUN3ZBNUVweGVHUHhGLVpmc3VVcFloXy1lT1piaVotOG5lQ09XbnFXR012alJvYWpqTDJaOWhpYnhwTWxJWU9fNUhWbVNXdUw4eWdhTHlQcmYzdDRlT1BqQmNfeHhQT2l2WlFhcTJu?oc=5",
+      "summary": "연준의 강달러 기조가 지속될 가능성이 제기되는 가운데, 물가와 이란 사태, 당국의 움직임이 주목받고 있다.",
       "summary_provider": "gemini",
       "tags": [
         "연준",
-        "증시",
-        "S&P"
+        "달러",
+        "물가"
       ],
-      "editor_reason": "연준, 증시, S&P 지수 포함",
+      "editor_reason": "연준, 달러 관련 심층 분석 제공",
+      "is_update": false,
+      "shortage": false,
+      "score": 72,
+      "source_tier": "general"
+    },
+    {
+      "sector": "국제 경제·증시",
+      "category": null,
+      "title": "국제유가 30% 급락에도 기름값은 제자리…해상 운임도 고공행진",
+      "source": "서울경제",
+      "published_at": "2026-06-21T17:43:32+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQQXJQRUtVTEo2eWYtU0FrZkdEUFl6MDI3NVFubVF0bmI1VDZMbkVHY1Nrd1B0WDJSWTRwQTNvSjl6ajE3NG9MQmpxck5DZEdfWFY40gFTQVVfeXFMUFBBclBFS1VMSjZ5Zi1TQWtmR0RQWXowMjc1UW5tUXRuYjVUNkxuRUdjU2t3UHRYMlJZNHBBM29KOXpqMTc0b0xCanFyTkNkR19YVjg?oc=5",
+      "summary": "국제유가 30% 급락에도 기름값은 제자리…해상 운임도 고공행진 서울경제",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
+      "is_update": false,
+      "shortage": false,
+      "score": 8,
+      "source_tier": "financial"
+    },
+    {
+      "sector": "국제 경제·증시",
+      "category": null,
+      "title": "미-이란 종전, 유가 하락에도 환율 1530원대…강달러 지속할 듯",
+      "source": "한겨레",
+      "published_at": "2026-06-21T19:14:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hMG9GV25UdnRtXzdhejMyUW5GakFSakNtemFWTk9OQ2JXMnRMQl95cE1jNV80WU1FSjV0UnlBSm56N3d1blNzbGFyMHp2UVdwNXY0ZkRRSG5LcDRSTGxRMm00M0dLaHc?oc=5",
+      "summary": "미-이란 종전에도 불구하고 국제유가 하락에도 불구하고 강달러 현상이 지속되며 환율이 1530원대를 기록했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "환율",
+        "국제유가",
+        "달러"
+      ],
+      "editor_reason": "유가 하락에도 강달러 지속 및 환율 영향 분석",
       "is_update": false,
       "shortage": false,
       "score": 70,
       "source_tier": "general"
     },
     {
-      "sector": "국제 경제·증시",
-      "category": null,
-      "title": "환율 23거래일째 1500원대…원·달러 환율 고공행진",
-      "source": "자유일보",
-      "published_at": "2026-06-21T15:15:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hbGhfN1BNR3ZrcEpDVGtLSXh3NGlraFZRbXQ4dklnZlNTQXR0U0g2b2QtVDhHQ1JMWFUwMENSdW1QV2ZUNW1haXJ0cmozUXVWWlJtOGs2SEdYZldjTXNWczhjZ1BFRnNjUm5v0gFvQVVfeXFMTXVxaHZabWZxTzRaZ1pxQ0lYZ0J2Wnhab3ZPOG9GbE9hT29fX1FfMk5vWUF0Vi1pbEhlalBGTjEtREN1aWhOT1FTZ1lVWmNhb0pqSEdIeVUzdXF3dGEyRVZPSDJycVprSlpqZFBWVVNR?oc=5",
-      "summary": "환율 23거래일째 1500원대…원·달러 환율 고공행진 자유일보",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
+      "sector": "증시 산업별",
+      "category": "AI 응용·플랫폼",
+      "title": "Stocktwits, AI 응용·플랫폼 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T01:34:54+09:00",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT09KdTcxbHhTNU14dW11NmxWQ1ppOGV5Y0g5UTJBQzVwdl9jOGFxU1kwQXZUblU3MC1obnNYaXVsU2NRem44M2p4OWVpWUU4VlV2a1JEMTlTSng5dFU1aXd5VnAzb0V2VWN4dS15MUlFMF82TDFQaUtEYldEUll2OGFpUE84LVVRQXJpeXhQSXpldlZ6dXl4Tk50RjVMNnh0aWxuLWlVam0xTVE5RkJRZzlJRnlRZWJzeUdIUEdFTjhQNUNFb3FRb2oyV2pnNGVuZlpDQ0k4SlNIQnBhZFdVSHFR?oc=5",
+      "summary": "Coinbase가 AI 에이전트가 구매, 판매, 결제할 수 있는 플랫폼을 출시하며 AI 응용 분야를 확장했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "Coinbase",
+        "AI 에이전트",
+        "플랫폼"
+      ],
+      "editor_reason": "AI 에이전트의 실질적 활용 사례를 보여줌",
       "is_update": false,
       "shortage": false,
-      "score": 10,
+      "score": 80,
       "source_tier": "general"
     },
     {
@@ -518,37 +542,17 @@
       "source": "v.daum.net",
       "published_at": "2026-06-21T09:17:42+09:00",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5wUXROdGZQX3FsMVVTNW93aGFVZ3BPRlozM1M4cFVIZk5meWN4Z2xsVGxlbml1WnBrNkM4bHdRWUQtTGU5NzlMWG9SVkxIVTA?oc=5",
-      "summary": "네이버가 AI 탭 출시 후 검색 점유율을 80%까지 끌어올리며 AI 기술 도입의 성공적인 성과를 보여주었다.",
+      "summary": "네이버가 AI 탭 출시 후 검색 점유율을 80%까지 끌어올리며 AI 기술 도입의 성공적인 사례를 보여주었다.",
       "summary_provider": "gemini",
       "tags": [
         "네이버",
         "AI",
-        "검색 점유율"
+        "점유율"
       ],
-      "editor_reason": "AI 기술 도입 성과를 보여주는 최신 뉴스",
+      "editor_reason": "국내 대표 IT 기업의 AI 도입 성과를 보여줌",
       "is_update": true,
       "shortage": false,
-      "score": 102,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "AI 응용·플랫폼",
-      "title": "생성형 AI 수익 232% 급증한 61억달러 기록… AI 컴패니언 시장 3년 만에 12배 성장, 한국 앱 ‘제타’ 일본 매출 1위",
-      "source": "국민기자뉴스",
-      "published_at": "2026-06-21T12:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5enZ4S1FQUHVUY2t0eVJSMTd0bkpYQlI4ZnBrQk1hWS1qUEhMUTdzbGVjWU0yaWlHMktTaE91LVA4bnNCb0tQSUZUd2FtTHRxLWI1cktnZ3BZdS1IUkFYZERvWdIBZ0FVX3lxTE9Db1pUU2NQR2JBaEFDVmwwODJqeFliMUdOUEJwS1hJeGpZU2ltaUgxQ0RmUm1KZVBqMGI4eEJaR3JaNFZ5Z3VZdFV4aU9xdnNzQ3c1MzBSNE45VDc1aThXZ0c3UGNsVmM?oc=5",
-      "summary": "생성형 AI 시장이 급성장하며 관련 수익이 크게 증가했고, 한국 앱 '제타'가 일본에서 높은 매출을 기록했다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "생성형 AI",
-        "매출",
-        "AI 앱"
-      ],
-      "editor_reason": "생성형 AI 시장 성장과 앱 성공 사례 제시",
-      "is_update": false,
-      "shortage": false,
-      "score": 73,
+      "score": 100,
       "source_tier": "general"
     },
     {
@@ -558,17 +562,17 @@
       "source": "메트로신문",
       "published_at": "2026-06-21T12:44:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85dmticnh2WGlGc0ZyWmMxZDBCeVpjVFg0dWJSdlRCMEhMN3JqSlRCZE5GaWpHaV9lTHR6N2VtZWR1X1hyVkI2NDRocHR0U2E5SHdkalhoS3VsSFUwWlljYQ?oc=5",
-      "summary": "카카오는 AI에 대규모 투자를 지속하며 보안 투자 비중은 줄었으나, AI 기술 개발에 집중하고 있다.",
+      "summary": "카카오는 AI 분야에 8200억 원을 투자하며 규모를 키웠으나, 보안 투자 비중은 오히려 감소했다.",
       "summary_provider": "gemini",
       "tags": [
         "카카오",
         "AI",
         "투자"
       ],
-      "editor_reason": "국내 주요 기업의 AI 투자 현황을 보여줌",
-      "is_update": false,
+      "editor_reason": "국내 빅테크의 AI 투자 현황과 과제를 보여줌",
+      "is_update": true,
       "shortage": false,
-      "score": 94,
+      "score": 87,
       "source_tier": "general"
     },
     {
@@ -578,58 +582,38 @@
       "source": "tokenpost.kr",
       "published_at": "2026-06-21T17:02:53+09:00",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JOC1FbDlHM0wzRTg1a0RnNXZLV2ZJVS0ta3AzTGEtTXAxWEdBZDFxSndsOTJ4Mm14R1N5Skp4SE9ZQ1NzRjZpMDVhYXo5Y0t6SnFz0gFYQVVfeXFMT3liY19odFk1ZFBuRHV1bF9iRWFPS2xTTnhmRGRTa295Q2kwRkxUbXVjRnNqdVhpVWdYX0RvSkZ0S0pkMEJNYmVIcWphYThSdDA3VXNiSzlBTg?oc=5",
-      "summary": "파워 인테그레이션스는 AI 데이터센터 전력칩 혁신으로 매출 증가와 인재 투자를 가속화하고 있다.",
+      "summary": "파워 인테그레이션스가 AI 데이터센터 전력칩 혁신으로 매출 증대와 인재 투자를 가속화하고 있다.",
       "summary_provider": "gemini",
       "tags": [
+        "파워 인테그레이션스",
         "AI",
-        "매출",
-        "투자"
+        "매출"
       ],
-      "editor_reason": "AI 인프라 관련 기업의 성장성을 보여줌",
-      "is_update": false,
+      "editor_reason": "AI 인프라 관련 기업의 성장 동력을 보여줌",
+      "is_update": true,
       "shortage": false,
-      "score": 92,
+      "score": 95,
       "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
       "category": "AI·반도체·메모리",
-      "title": "엔비디아 실적발표 임박…월가 '20일 후 또 뛸까' 주목",
+      "title": "엔비디아 지금 사도 안 늦었나…실적 숫자가 보여준 성장 신호",
       "source": "초이스스탁",
-      "published_at": "2026-06-21T12:09:25+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DbUl5YzdxOFJOWkxFalV5R2NocUpIOXVwWkdaZzNKVWtKdzhJaV96dzBTcDNGSmhPWTlicmFFeUNvTjZPZjdtbkZESE9HSVB1TXNrQWhhdlVucUVQRHVSQUJVUUxKcVE?oc=5",
-      "summary": "엔비디아 실적 발표를 앞두고 월가에서 주가 추가 상승 가능성에 주목하고 있다.",
+      "published_at": "2026-06-21T11:45:36+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PMmttNmFPN1NITWd5OG5aN3lyVl9fUDlQWTlzNDNpMTNJeFFGMTU4ekdxR1h4ZXd6aDluRWhNUkNjYk8xNVhwRFhrZkpxMlNQS2xTZ3BRQUR3djFmVGE1Yll3RC0xU2M?oc=5",
+      "summary": "엔비디아의 실적 성장 신호가 확인되며 현재 시점에서의 투자 매력도를 분석하고 있다.",
       "summary_provider": "gemini",
       "tags": [
         "엔비디아",
-        "실적 발표",
-        "주가"
+        "실적",
+        "성장",
+        "투자"
       ],
-      "editor_reason": "엔비디아 실적 발표 임박 및 시장 관심도",
+      "editor_reason": "엔비디아 실적과 투자 매력도를 분석함.",
       "is_update": false,
       "shortage": false,
-      "score": 93,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "AI·반도체·메모리",
-      "title": "하이닉스 시총, 삼성전자 절반에서 95%로 급등…‘2차 실적 랠리’ 이어질까",
-      "source": "한겨레",
-      "published_at": "2026-06-21T14:05:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MdGRzQ1A4NUx2bnFWN1JDSWozTDFjdDY1ekZsM1dHTWMtLW53d19Jck5qeE81aVdFRmN5OS0wVDB6NnB4b3RUeW04X0ZkakVhWjJHZ09wTHdKaGw0QUY2MnpmVk9BcWs?oc=5",
-      "summary": "SK하이닉스 시가총액이 삼성전자의 95%까지 급등하며 2차 실적 랠리 기대감을 높이고 있다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "SK하이닉스",
-        "삼성전자",
-        "시가총액",
-        "실적"
-      ],
-      "editor_reason": "SK하이닉스 시총 급등 및 실적 기대감 언급",
-      "is_update": false,
-      "shortage": false,
-      "score": 105,
+      "score": 83,
       "source_tier": "general"
     },
     {
@@ -647,10 +631,10 @@
         "실적",
         "수혜주"
       ],
-      "editor_reason": "마이크론 실적 및 HBM 시장 전망",
-      "is_update": false,
+      "editor_reason": "마이크론 실적과 HBM 시장 동향을 다룸.",
+      "is_update": true,
       "shortage": false,
-      "score": 85,
+      "score": 88,
       "source_tier": "general"
     },
     {
@@ -660,49 +644,55 @@
       "source": "Yahoo Finance",
       "published_at": "2026-06-21T17:23:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQnRubklQTUt4MlVzT3FENzZlOVg4WTBUUmd4b2tpb0kyV21fSjZsUXViMkVFTTdpNGZPQzhwdFM4cVJ5MGM4ZjVlaWc0V2xtSVQ0TGxib1lod0NCWDFyQUc3Rm5xZ25xMGJQeHNGTXRoZm9SNlZNZk1ObmJ6djVYOWU0MzZlSUdOc0l0ekVWOW1na3BG?oc=5",
-      "summary": "엔비디아 주가 상승 여력에 대한 분석이 실적 데이터를 기반으로 제시되고 있다.",
+      "summary": "엔비디아 주가가 6월 24일 이후 급등할 가능성에 대한 근거가 제시되고 있다.",
       "summary_provider": "gemini",
       "tags": [
         "엔비디아",
         "주가",
-        "실적"
+        "급등",
+        "전망"
       ],
-      "editor_reason": "엔비디아 주가 및 실적 분석",
+      "editor_reason": "엔비디아 주가 급등 가능성을 전망함.",
+      "is_update": true,
+      "shortage": false,
+      "score": 75,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "AI·반도체·메모리",
+      "title": "하이닉스 시총, 삼성전자 절반에서 95%로 급등…‘2차 실적 랠리’ 이어질까",
+      "source": "한겨레",
+      "published_at": "2026-06-21T19:15:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MdGRzQ1A4NUx2bnFWN1JDSWozTDFjdDY1ekZsM1dHTWMtLW53d19Jck5qeE81aVdFRmN5OS0wVDB6NnB4b3RUeW04X0ZkakVhWjJHZ09wTHdKaGw0QUY2MnpmVk9BcWs?oc=5",
+      "summary": "SK하이닉스 시가총액이 삼성전자의 95%까지 급등하며 2차 실적 랠리 기대감을 높이고 있다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "SK하이닉스",
+        "삼성전자",
+        "시가총액",
+        "실적 랠리"
+      ],
+      "editor_reason": "SK하이닉스 시총 급등과 실적 랠리 전망을 다룸.",
+      "is_update": true,
+      "shortage": false,
+      "score": 105,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "건설·부동산·인프라",
+      "title": "Bitget, 건설·부동산·인프라 관련 최신 소식",
+      "source": "Bitget",
+      "published_at": "2026-06-21T05:05:09+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kbjNTMnZlR0liclN1LXp5eGxTcnAyaUxFcmV6aWVZSXlpRmgzSlVUYkoweG9NX2Z5TmM1cHo5aE5ST0F0TWdndWRpWGRsRXpuT0c5Mm1DQjNHdw?oc=5",
+      "summary": "Bitget가 다룬 Bitget의 건설·부동산·인프라 소식으로, 관련 산업과 시장 흐름을 점검할 필요가 있습니다.",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
       "is_update": false,
       "shortage": false,
-      "score": 77,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "건설·부동산·인프라",
-      "title": "The Real Deal, 건설·부동산·인프라 관련 최신 소식",
-      "source": "The Real Deal",
-      "published_at": "2026-06-20T21:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRTh0T25Jal9FTUo1WFplNjIzX2JKbUpTaFRaejJqX3dVc2NXZVZzeTQ5MTZ2WjRRWXdmZmtQSURTUWNrSGJQaHVFdjhmSUVUU0gyU0F1UHprem0wdXgtRTNjWGQyTngwcldYN1FQODdaQXhQV3R3emZlZVdmajBFcmxsY2YwYUQ1N293b2tPZkxfTVA2RnZwcy11MFRMdFhfSHVHaGY2UQ?oc=5",
-      "summary": "These Bay Area sellers want AI 주가 The Real Deal",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
-      "is_update": true,
-      "shortage": true,
       "score": 19,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "건설·부동산·인프라",
-      "title": "AOL.com, 건설·부동산·인프라 관련 최신 소식",
-      "source": "AOL.com",
-      "published_at": "2026-06-20T21:35:37+09:00",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TNC1lZjFObWl6RUhfd0lGaHEzdjQ0SFBaWVJrZGlJOHlpaWwwbFZMQjFEWmxVV2tEdHNwWFloYzV6WG41cUJoR0g0UmNKODlaeEhQYVFfWG00OGI3bjhsellXQVBsUTAyVkVidEt0Z1RJMzJTbUVxRWNnVjI?oc=5",
-      "summary": "RH: Which Consumer 주가 Is a Better Buy in 2026?",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
-      "is_update": true,
-      "shortage": true,
-      "score": 14,
       "source_tier": "general"
     },
     {
@@ -717,9 +707,41 @@
       "tags": [],
       "editor_reason": "",
       "is_update": true,
-      "shortage": true,
-      "score": 26,
+      "shortage": false,
+      "score": 24,
       "source_tier": "agency"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "건설·부동산·인프라",
+      "title": "GS건설 1등 아들로 거듭난 자이에스앤디, 올해 목표 수주액 3.2조 설정…“매출 성장 총력”",
+      "source": "아시아투데이",
+      "published_at": "2026-06-21T17:17:26+09:00",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SZGgxMnJobmE2U3hKMUlHeWFPZDJkS0VpTlAyYzI4d2M0N1RNMlhJUzRubVN3X091M1ZmSzhIOVRFeXd4cWNLMDVRX2MzX3NMcnQ2MDlRQWRpa0Q3SFREVm56NnpKNFBvOWJpcjZB?oc=5",
+      "summary": "GS건설 1등 아들로 거듭난 자이에스앤디, 올해 목표 수주액 3.2조 설정…“매출 성장 총력” 아시아투데이",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
+      "is_update": false,
+      "shortage": false,
+      "score": 20,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "건설·부동산·인프라",
+      "title": "김용범 정책실장 `반도체 특수 부동산 유입 차단`",
+      "source": "매일신문",
+      "published_at": "2026-06-21T19:22:44+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5nbDBKMUNxa0tHLXI0VWgtVUhXdmRza21xRXdCQU9ZazdkZUwxeGpEazdiUzNqdEF2dVppT09KRjJ4eGJaRllpNTh1M19oM25tamxUWFV4YzRBYkRpVFRWU3FR?oc=5",
+      "summary": "김용범 정책실장 `반도체 특수 부동산 유입 차단` 매일신문",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
+      "is_update": false,
+      "shortage": false,
+      "score": 15,
+      "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
@@ -728,38 +750,39 @@
       "source": "Stocktwits",
       "published_at": "2026-06-21T06:09:07+09:00",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV2l3WU13SDAwOUxIem5BUHRZQkRkVi10TnU5UzJJVE0xMHhmSF83WXdST3NzWGg0Tlh1X2tzZE9fMzQtNkNrVmhMSlBwWlh3LVFzTExDSjQ5X19rSUxVa2Y0eWFHSGEtNmhGMjhFV0tHUXlfdG4yR0NhcVJ4V0YxcW5FTTRtaUctOTFTSE9pbjNlN1YzQXg0UjdpYUgtbWJobGZSdXVtam1ENDhEQzNCSDQzVnNvQkFHZ29uS09GaE1HUlc2a0VCTG5Rb0Q?oc=5",
-      "summary": "Amazon이 미주리주에 수십억 달러 규모의 데이터센터 확장을 발표하며 관련 주가가 상승했습니다.",
+      "summary": "아마존이 미주리주에 수십억 달러 규모의 데이터센터 확장 계획을 발표하며 클라우드 인프라 투자 확대에 나섰다.",
       "summary_provider": "gemini",
       "tags": [
         "Amazon",
         "데이터센터",
         "확장",
-        "주가"
+        "투자"
       ],
-      "editor_reason": "주요 빅테크 기업의 데이터센터 증설 발표와 주가 영향 분석으로 중요도 높음.",
-      "is_update": false,
+      "editor_reason": "아마존의 대규모 데이터센터 확장 발표는 클라우드 인프라 시장의 성장과 투자를 보여주는 핵심 뉴스임.",
+      "is_update": true,
       "shortage": false,
-      "score": 84,
+      "score": 94,
       "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
       "category": "데이터센터·클라우드 인프라",
-      "title": "효성중공업, 전력 인프라 기대감 속 강세 시선…중동 긴장 완화도 투자심리 자극",
-      "source": "CBC뉴스",
-      "published_at": "2026-06-21T09:10:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZU0NXbkVJWVZjRmlmOG45bDRvNmo5bGZDZlZhRFJIcHB3SVZhby1kQWdQdXV5TTFtdmpHX3JpYVBwRlkzcG94bDFxQ1F5X1FGMDEzMVRRY01MblF0X3ZEQldoVXFEMG0x?oc=5",
-      "summary": "효성중공업은 전력 인프라 관련 기대감과 중동 긴장 완화로 투자 심리가 자극되며 강세를 보이고 있습니다.",
+      "title": "Stocktwits, 데이터센터·클라우드 인프라 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T10:04:48+09:00",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNd0x5R3U2TndobTRodmlxTnFRanExcnVNcEtmLUZPazRBc0JmOUhzUE5aV2F3TzlJWHdMclZSLTBucUtsRmI3OFNNZUloVFZibTNvUnFCcVZISHg5U3F6UE53bjVmZlNzUkhjUnF2LU9fUTdELUtPclVpZWZvc1liX01zTGlmNGFoN0lmbnhsT0V5NF85RWE0TkE5bE10QVFMMXFZaXFJOVBGMl93aHNRd0dlQTdMZ3dXVlFDUFFjbWZRamE2VkZGT0pyTVR5VVZnY2kwbTVWVVpUOXUwancxQzl6N2lNdS00c2hr?oc=5",
+      "summary": "AI 인프라 성장에 따른 전력 수요 증가 전망으로 BE 주가가 상승하며 관련 기업의 성장 가능성을 시사했다.",
       "summary_provider": "gemini",
       "tags": [
-        "효성중공업",
-        "전력 인프라",
-        "투자 심리"
+        "AI",
+        "전력",
+        "주가",
+        "성장"
       ],
-      "editor_reason": "기업의 전력 인프라 투자와 투자 심리 변화를 연결하여 중요도 높음.",
+      "editor_reason": "AI 관련 전력 수요 증가가 특정 기업 주가에 미치는 영향을 보여주는 사례임.",
       "is_update": false,
       "shortage": false,
-      "score": 83,
+      "score": 79,
       "source_tier": "general"
     },
     {
@@ -769,15 +792,15 @@
       "source": "데일리안",
       "published_at": "2026-06-21T11:00:00+09:00",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwbzlzTjI2WlFfcTdweFNTUFd1SlhGbVlwNmo0R09GamJKcjdjVlhSQzlaWnNfTDk0ekliZGZlWVZVN3J0ZFpMclJzS1hTWjdEN09oRjdyQdIBmwJBVV95cUxPNWxkOHRzanJXRktBekVkRzBXSmVET1hsU3luZEhSR0k1TG8yWDgyMG1maHI4eElQNGlITXVFMVRYMUFNRlp0RDZoLVhua3pSX1dVbU9KMmZibldCTlR1c25IR282U2l3OTlzUW5VSDVNSUYyQWJ6WHdtZTBVRkcxR1kwY3R1NzNscHRHdnZvdE1Hb2ktV1I0QkwyN3lETGtrTTdWbHR3dHJJczd0ckxvWE9YYk9DeThlQ2QyVzladkZ2UXBIbjdrcVM3N3JlWlFXempyczdwVjRLOUYzSFlPR0dkaDgxRHAwZlZLTWJzclIwYzJjMWtaUmxURE5OVmVaYmR2YjNySEF5M2xVUVV3ZjlaSFdIVE5JS2lB?oc=5",
-      "summary": "AI 기반 전력 투자 확대에 따라 경남 지역 전력·에너지 기업들의 북미 수출 기회가 열릴 것으로 기대됩니다.",
+      "summary": "경남 지역 전력·에너지 기업들이 북미 시장 진출을 확대하며 AI 시대의 전력 투자 수혜를 기대하고 있다.",
       "summary_provider": "gemini",
       "tags": [
+        "경남",
+        "전력",
         "AI",
-        "전력 투자",
-        "수출",
-        "북미"
+        "수출"
       ],
-      "editor_reason": "AI 전력 투자와 기업 수출 기회 연관성 분석으로 중요도 높음.",
+      "editor_reason": "AI 시대의 전력 수요 증가와 관련 기업의 북미 시장 진출은 산업 성장 가능성을 보여줌.",
       "is_update": true,
       "shortage": false,
       "score": 93,
@@ -790,36 +813,35 @@
       "source": "매일경제 마켓",
       "published_at": "2026-06-21T17:45:28+09:00",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBYTU5FWWE4eEw1MDM1ejEtNXNlMVd4VzVOYkhSNHpHMEhVUm9rUzFET1k3RE1YUzh5STUwRFpFNm0xTS1yT2g0a0RmZ3JJNVUxWWc?oc=5",
-      "summary": "AI 시대 반도체 인프라 구축에 필요한 전력, 냉각, 클린룸 관련 기업 주가가 주목받고 있습니다.",
+      "summary": "반도체 산업 성장에 따라 전력, 냉각, 클린룸 등 관련 인프라 관련주에 대한 주목도가 높아지고 있다.",
       "summary_provider": "gemini",
       "tags": [
         "반도체",
         "인프라",
         "전력",
-        "냉각",
-        "클린룸"
+        "투자"
       ],
-      "editor_reason": "반도체 인프라 핵심 요소와 관련 주가를 언급하여 중요도 높음.",
-      "is_update": false,
+      "editor_reason": "반도체 산업 성장이 데이터센터 인프라 전반으로 확산되는 추세를 보여줌.",
+      "is_update": true,
       "shortage": false,
-      "score": 98,
+      "score": 86,
       "source_tier": "financial"
     },
     {
       "sector": "증시 산업별",
       "category": "바이오·헬스케어",
-      "title": "애스톤 \"위암 치료 백신, FDA 희귀의약품 지정\"",
-      "source": "뉴시스",
-      "published_at": "2026-06-21T08:01:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2ZEYtLXh5d2NHeGxFak03VkJ5RXRzVENNWmpTamJYamVnV183NV9pUzd0ZzFUTTc4VGVYeEc0c3d4Tk41b0JIUndlcHhKVjV0Y0ZRelhRQ0s4eHRkVmQ2bNIBeEFVX3lxTE9NTFk5TWFYSVVOa01peDhFTXBDSjA2RHRUb3JhRGRFZGNDZFF4X2hfVDZvU0g1MGh6Zno0bjR1bFowMW5vTnRYLUd5R3Btb3ZtaTVfMGgzQkdxM3NDV2pQZ3JLLXE2a3F4OG9taDFUQkdEM01CS0pMTA?oc=5",
-      "summary": "애스톤 \"위암 치료 백신, FDA 희귀의약품 지정\" 뉴시스",
+      "title": "Stocktwits, 바이오·헬스케어 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T03:45:28+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbk9PUW1JOEtKS0F0bklvclhXc1Z1NllHVjVLeURQc1NPWU4tM3MtM3pFRkF3TkZSWGRFeHNGTVNhdDRheXZJZE5UZ25xV3NTanJXVmhPbW0zZkFodk83V0RlOE1xTWJORkVjRUtRb2hWaks5Rmh0NWtMZnhRQ09pcG5mWjNzcVU1d3JXTWpfc25CajhyM1FfdFRxa2dyNjlEWlBEZUUtUDJKdDlwSVVKbUo5ZkxIQjQ5aGRRYklMQS1YNXpJSXlKamhGQQ?oc=5",
+      "summary": "LLY 주가 Rallies On Much Awaited FDA Approval For Weight Loss Pill Stocktwits",
       "summary_provider": "local",
       "tags": [],
       "editor_reason": "",
       "is_update": false,
       "shortage": false,
-      "score": 22,
-      "source_tier": "agency"
+      "score": 29,
+      "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
@@ -834,7 +856,7 @@
       "editor_reason": "",
       "is_update": false,
       "shortage": false,
-      "score": 22,
+      "score": 20,
       "source_tier": "general"
     },
     {
@@ -850,7 +872,7 @@
       "editor_reason": "",
       "is_update": true,
       "shortage": false,
-      "score": 26,
+      "score": 22,
       "source_tier": "general"
     },
     {
@@ -864,29 +886,9 @@
       "summary_provider": "local",
       "tags": [],
       "editor_reason": "",
-      "is_update": false,
+      "is_update": true,
       "shortage": false,
-      "score": 22,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "자동차·모빌리티",
-      "title": "Stocktwits, 자동차·모빌리티 관련 최신 소식",
-      "source": "Stocktwits",
-      "published_at": "2026-06-20T19:15:41+09:00",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZWlqTWlSc1o4VDFTR2hsV0hQNGk1VU9xSXJfdFpCaHJfSWZ1ZTlFa0JOT3dyWWxQaWIxaWVuaGRYVXZQYVJwNGxFQWZzUExnbjV2MlRRa3JrTlJMYWJvNGZNcEVhWFEydlcyM1RTVm91MHQzMmJtUGp5cWttRjNodXFVZ09wcDdPclJsQ29NNWFhYmF0SGtPcy04SFdxcjRzM3hheHBzNmJMRW41VWY1dXlOS2NqbnlrazhkeF9DS3NfSkNmdnAwNjROMF9oX3F0QkZ3RVVhV2RWcFdwYlE?oc=5",
-      "summary": "포드 주가가 EV 전략 조정으로 30% 이상 상승할 것이라는 분석이 나왔습니다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "포드",
-        "주가",
-        "EV"
-      ],
-      "editor_reason": "포드 주가 상승 전망 분석",
-      "is_update": false,
-      "shortage": false,
-      "score": 95,
+      "score": 20,
       "source_tier": "general"
     },
     {
@@ -896,17 +898,37 @@
       "source": "v.daum.net",
       "published_at": "2026-06-21T07:32:01+09:00",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ubDM0U0FFdnZkTlY1eFZWMkVzcHRfUmxKLU1iNU9oQ2s2Z0dtNGI3WGRQVkc1ajgwUXZHVW9VWmNHWHhueWg4YndaNHJCd3JxSHJTVA?oc=5",
-      "summary": "전기차 회복과 ESS 성장으로 K-배터리 기업들의 2분기 실적 반등이 기대됩니다.",
+      "summary": "K-배터리 업계가 전기차 회복과 ESS 성장으로 2분기 실적 반등을 준비 중이다.",
       "summary_provider": "gemini",
       "tags": [
+        "K-배터리",
         "전기차",
-        "실적",
-        "K-배터리"
+        "실적"
       ],
-      "editor_reason": "K-배터리 실적 반등 기대 요인",
+      "editor_reason": "K-배터리 실적 전망을 다룬 신뢰도 높은 기사",
       "is_update": true,
       "shortage": false,
-      "score": 83,
+      "score": 86,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "자동차·모빌리티",
+      "title": "Tesla, 자동차·모빌리티 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T09:15:09+09:00",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLXVZWlQ1TEF3VnViVkhfZ1RUY2JsVnp1ejQzWm9kWkFjT0szR2h4UF9SSndUWkhXdHpUTHNxU21JMUo0YlF6OXdHZFhweEc4TmhfbDdHTUdLTVVVbjFtNFBGOW45c2pqRFdfcUZtR3dkUnd3Rl92cEN3RXJKTWx3OFJ3aUp5bi1xMFVnSEItUEdMbHk5N09Pc3M4X0dJblU2NFZwbEpVdTVoX0wzSUhOc0dPQ1YwYy0teFVDeEE1SXpQZ3NYR2RyMzkwTW1wUQ?oc=5",
+      "summary": "일론 머스크는 테슬라의 1분기 미국 판매량이 경쟁사 EV 전체를 합친 것보다 많다고 강조했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "Tesla",
+        "EV",
+        "판매"
+      ],
+      "editor_reason": "테슬라 판매 실적 관련 신뢰도 높은 기사",
+      "is_update": false,
+      "shortage": false,
+      "score": 80,
       "source_tier": "general"
     },
     {
@@ -916,74 +938,22 @@
       "source": "톱스타뉴스",
       "published_at": "2026-06-21T09:41:33+09:00",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RWkRtTG1rUWlfVUp0dmtYc3VadG56UUctTEdUZWxSRW11QnJIbldHMEpGbVlvMFlPY0luQWpxV3Y0RHBvejhQSE9BeERJLTBocXRNRVZCSk9VMG5qZ3VBQnBnVXBXYUhDbkJZcWgzQmliZw?oc=5",
-      "summary": "현대차 주가가 6월 3주차 하락세를 딛고 61만원대로 마감했습니다.",
+      "summary": "현대차 주가가 6월 3주차 하락세를 딛고 61만원대로 회복했다.",
       "summary_provider": "gemini",
       "tags": [
         "현대차",
         "주가"
       ],
-      "editor_reason": "현대차 주가 동향 요약",
+      "editor_reason": "현대차 주가 동향을 다룬 신뢰도 높은 기사",
       "is_update": true,
       "shortage": false,
-      "score": 88,
+      "score": 91,
       "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
       "category": "자동차·모빌리티",
-      "title": "Tesla, 자동차·모빌리티 관련 최신 소식",
-      "source": "MEXC",
-      "published_at": "2026-06-21T17:15:49+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84UVJWUWx5WXhTdXZ6Nmd3b3EyUk5KT21zNUlPWnFlbkhkZERIUFJVUE1PX3BjUXl2d0dnbTFNTDFSMU5ndUFQWWhUMkhoVEE?oc=5",
-      "summary": "테슬라의 유럽 자율주행 기술에 대한 회의론이 제기되며 주가 향방에 관심이 쏠립니다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "테슬라",
-        "자율주행",
-        "주가"
-      ],
-      "editor_reason": "테슬라 자율주행 기술 및 주가 전망",
-      "is_update": false,
-      "shortage": false,
-      "score": 77,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "제조업·소재·화학",
-      "title": "Kalkine Media, 제조업·소재·화학 관련 최신 소식",
-      "source": "Kalkine Media",
-      "published_at": "2026-06-21T01:03:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbHhWaEZ0cGhEakVvVlpEZTdNNTVIOHFxS1ZYakc2bGVSYlN4ZjVvV2RLeEVOMEh1cVdrQlFWU2t5WWFrM2daaTVJUmtKeTJ1LW9FVWVFSW9jT3lDRzZFMGhybzl3ODNMajlhdThrVFQwSmZZVlRPSmVBUVZmQkdNcTRSLXRheUJ6aU5rWTBRMVBVV0h1Yk9RYlhhT1dLNFI0S19lX1Ztcw?oc=5",
-      "summary": "Why Stria Lithium (TSXV:SRA) Is Emerging As A Penny 주가 To Watch?",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
-      "is_update": true,
-      "shortage": false,
-      "score": 15,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "제조업·소재·화학",
-      "title": "[청년발언대] 글로벌 공급망 재편 한복판에 선 K-배터리·반도체…2026년, 자립의 현주소는",
-      "source": "청년일보",
-      "published_at": "2026-06-21T11:00:00+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZVlhCWm9ZWmNPekpnSFFlaXd1djQ4anVzUUFWM1Radmc2a1phZUx4LTE4MmJSWF9rcVJJV2RiR195VXpYdE1kNVotX09KdHRoTzFPUUpUZmNHa3RqZTB6bThISFljMnc?oc=5",
-      "summary": "[청년발언대] 글로벌 공급망 재편 한복판에 선 K-배터리·반도체…2026년, 자립의 현주소는 청년일보",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
-      "is_update": false,
-      "shortage": false,
-      "score": 13,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "제조업·소재·화학",
-      "title": "Stock Titan, 제조업·소재·화학 관련 최신 소식",
+      "title": "Stock Titan, 자동차·모빌리티 관련 최신 소식",
       "source": "Stock Titan",
       "published_at": "2026-06-21T15:02:07+09:00",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS0hnbnRMVFdvQjlRQjhVR19EUHdHTTFOQkNYYm9OX1JFdFBzSHlkTmNGUUJCRk1QTXZzOFQwMkNUSFVyQThBUlhtZzA4U2xseEwycHgxNFlqcnYtYWxwaDk2UkxZbWFPaUcwSGlmdHliOGxrWTVSeG9MWkJ0WWh6VFkyYVUxSEZ6N1FmX3ZCb2JrcXlzWExTRUFlbXFyN2p4VzNzMmVHd21iLUhjVXB0dmJ1WmlNWjg?oc=5",
@@ -991,9 +961,25 @@
       "summary_provider": "local",
       "tags": [],
       "editor_reason": "",
+      "is_update": false,
+      "shortage": false,
+      "score": -5,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "제조업·소재·화학",
+      "title": "Stock Titan, 제조업·소재·화학 관련 최신 소식",
+      "source": "Stock Titan",
+      "published_at": "2026-06-21T14:27:07+09:00",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSko3eGI1eDZXTnpSNjF3c1poSjFmRFJrTkNyZHJJZ3RiZGl0NDRJSkVDQTBzX3E5eGNMQlEzcV9YT2VWUVVDZW1uVmtKNjgxYTJhSlRvek5oWFNacGRubWU1MTloYl9rRG5STDdBR2txTDE4X0FUY19MblU0UFhuZjRQM1JuYmVoV0tnNDFaM3Z2a09FbGJWclB5VGVpcTd1alZ3MkJSbkxBd25KeDNxaFVkVVVFQQ?oc=5",
+      "summary": "ELEKTROS touts lithium and EV charging vision as investor interest grows 주가 Titan",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
       "is_update": true,
       "shortage": false,
-      "score": 19,
+      "score": 17,
       "source_tier": "general"
     },
     {
@@ -1007,65 +993,81 @@
       "summary_provider": "local",
       "tags": [],
       "editor_reason": "",
+      "is_update": true,
+      "shortage": false,
+      "score": 18,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "제조업·소재·화학",
+      "title": "AOL.com, 제조업·소재·화학 관련 최신 소식",
+      "source": "AOL.com",
+      "published_at": "2026-06-21T21:04:00+09:00",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSnNCaktoMGVmVWxZR2p2R3lucUtCRGV0Zk1zNk1weldIUW9pMklhQmRrd2YwaVRlRlROVmNUSm1LalZfQVdpaURuUXZSc2lVUllONDJpOGlzX1hKTVNPN3RLbDJnV0RiVlh3NFR5WEtINVdDbFdwT0lwWlBuUGJEcHBB?oc=5",
+      "summary": "Government-Backed MP Materials 주가 Is Down 42% From Its 52-Week High.",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
       "is_update": false,
       "shortage": false,
-      "score": 22,
+      "score": 21,
       "source_tier": "general"
     },
     {
       "sector": "증시 산업별",
-      "category": "항공·우주·방산",
-      "title": "Boeing, 항공·우주·방산 관련 최신 소식",
-      "source": "TIKR.com",
-      "published_at": "2026-06-20T21:21:01+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVWtpT0lXUW00d3VmVmdlUV9CNkpJV1pJRUZtVnR1dXlralNJSmdmSWtfa1J4NGE0ZmRRMzdBQk5zVHl5RnJjaWxlVzdEMVZyVnhrNHJDM3hNQ0N5UHRjRHZuNFozNWNhRGJZTEdDd0cxOHUwV2RrNnZQZGFzeEhDVG1tbFJPM0ExMmJpbVhiX1RvY2NxbHZqc01uVGRnemtNbzRfUmdtLWcxVjJPSHpFNXZqRllzNTVFc0wzNGxvTjlMQlU?oc=5",
-      "summary": "미-이란 평화 협상 타결 소식에 Boeing 주가가 상승했으며, 향후 주가 전망에 대한 분석이 제시되었다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "Boeing",
-        "주가 상승",
-        "미-이란 평화 협상"
-      ],
-      "editor_reason": "TIKR.com의 보도로 Boeing의 주가 움직임과 관련 요인을 분석하여 중요함.",
-      "is_update": true,
+      "category": "제조업·소재·화학",
+      "title": "Fed, 제조업·소재·화학 관련 최신 소식",
+      "source": "MarketWatch",
+      "published_at": "2026-06-21T22:00:00+09:00",
+      "url": "https://www.marketwatch.com/story/this-bull-market-isnt-going-to-end-because-of-fed-rate-hikes-under-warsh-8f63fa85?mod=mw_rss_topstories",
+      "summary": "But 증시 might gain ground if he does, and past rate-hike cycles can be a guide.",
+      "summary_provider": "local",
+      "tags": [],
+      "editor_reason": "",
+      "is_update": false,
       "shortage": false,
-      "score": 79,
-      "source_tier": "general"
-    },
-    {
-      "sector": "증시 산업별",
-      "category": "항공·우주·방산",
-      "title": "SpaceX, 항공·우주·방산 관련 최신 소식",
-      "source": "Bloomberg",
-      "published_at": "2026-06-21T04:02:54+09:00",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQalVCaUpvQW5WMHplTE1qRlJCNHRlVnItTE5ESHJrb2NMbHVhT0FmRXFNZXFzYjRkcmh2eWZjdXBtRFJXVHpkelhOd0lmTzc5SHcxNFJYcXhKS19vd19iWmtoSUpseHA1OVdrS0RVbFp1SzlXUmhoUTVfNjFLTG93anFyX1dXeXRpdXBrUUFqUTVFQlBSTkhXR0pnLVhMR3BhS2pWTnVLemJnNkFlYjhycElURG9kTFdZMUdQNXdVWENBdzg?oc=5",
-      "summary": "SpaceX IPO 소식이 아시아 증시 랠리에 영향을 미치며 투자 심리를 자극했다.",
-      "summary_provider": "gemini",
-      "tags": [
-        "SpaceX",
-        "IPO",
-        "아시아 증시"
-      ],
-      "editor_reason": "Bloomberg발 신뢰도 높은 금융 매체이며 SpaceX IPO 관련 중요 이슈를 다룸.",
-      "is_update": true,
-      "shortage": false,
-      "score": 101,
+      "score": 23,
       "source_tier": "financial"
     },
     {
       "sector": "증시 산업별",
       "category": "항공·우주·방산",
-      "title": "6월 3주차 한화에어로스페이스 주가 상승세 꺾이며 112만원대 마감",
-      "source": "중앙이코노미뉴스",
-      "published_at": "2026-06-21T11:31:45+09:00",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8zRUVBa1UzRlZ4V2lXblJmOHpycUNkOWlEQ0QwTjRpM2p3VUtzX2liTFZySmlLeHpEVzdVMnhrMFpzOFhvengtTG40QThoa1RvTHdnUENrM3BPbVRKYlBqUzZ2QmFIN3NLWGQ3ZzlVQ1JlQQ?oc=5",
-      "summary": "6월 3주차 한화에어로스페이스 주가 상승세 꺾이며 112만원대 마감 중앙이코노미뉴스",
-      "summary_provider": "local",
-      "tags": [],
-      "editor_reason": "",
+      "title": "SpaceX, 항공·우주·방산 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T08:33:29+09:00",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdVJqMXpPVk1RU041Vmw2WkJNUjVoSXpDOHp4aHoxWTlDSnRiNklIWDlHTHc0dkJIUnpsOVJ6UFlyTUt0cW8zd1F4MFpwY3BFcktvXzRENzQ0Nkg1ZXdqcVhiWDhDVUx0dTI3WHMyU2V0RDFGV2xEb1Fwc25icHN0RUdrYlU4WlJkTlN5M0NJaEs2NlJwanhSLUFtTXlCaHAtN2dpZWVxNW5lekxxUFZz?oc=5",
+      "summary": "RocketLab 주가는 하락했으나, CEO는 SpaceX의 IPO가 90번째 일렉트론 발사 임박에 긍정적 영향을 미쳤다고 밝혔다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "RocketLab",
+        "SpaceX",
+        "IPO"
+      ],
+      "editor_reason": "SpaceX IPO가 다른 우주 기업에 미친 영향 분석",
       "is_update": true,
       "shortage": false,
-      "score": 18,
+      "score": 80,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "항공·우주·방산",
+      "title": "Stocktwits, 항공·우주·방산 관련 최신 소식",
+      "source": "Stocktwits",
+      "published_at": "2026-06-21T11:02:16+09:00",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcEU5OFdLOUtFczdyT0IyMldVNzYxMEVxNnAzN0pwWkRSdW45UFVBYWhQQzM0ODlRcUdVdGJOUURkblV6bUszLU92Yi1jcTV0U1VuZlAwZ2c5VjZ0MlBYRnZyaXdzaUdEZlNLSnIyMXIyS29zbFU4d2R0c2w3eTZIMmZyWVYxTll2VkE0TWlyZXU1YWhGTG91YUN2aEIzMUwtWHFlSU80V0ZwbGo3QXZlNkdCbTNvdFh2NDE5bExjOA?oc=5",
+      "summary": "한 방산 주식이 1년 만에 두 배 이상 상승했으며, 이번 주에만 두 번째 계약을 체결했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "방산주",
+        "계약",
+        "주가 상승"
+      ],
+      "editor_reason": "방산 기업의 계약 체결 및 주가 상승 관련 정보",
+      "is_update": false,
+      "shortage": false,
+      "score": 97,
       "source_tier": "general"
     },
     {
@@ -1079,9 +1081,29 @@
       "summary_provider": "local",
       "tags": [],
       "editor_reason": "",
-      "is_update": false,
+      "is_update": true,
       "shortage": false,
       "score": 18,
+      "source_tier": "general"
+    },
+    {
+      "sector": "증시 산업별",
+      "category": "항공·우주·방산",
+      "title": "AOL.com, 항공·우주·방산 관련 최신 소식",
+      "source": "AOL.com",
+      "published_at": "2026-06-21T19:55:04+09:00",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlBrWjZYV0FrWmYxTzhVVi1OemtUd0VlT0lXWDFhSHJxY1VvME5oa0N1MV9CRjFGaTR3QjFaR1B6Z3lvS051ZDcycl84RjNzWFJTeGFEWmt6clVBRXlvLV8wczVxa3o1Wms1dDFYcGxFcktSOHh4a2llOC0zTXpUOE5ucFQ?oc=5",
+      "summary": "미 상원의원이 미 육군의 지연된 JLTV 계약에 대해 수십억 달러가 투입되었으나 차량 인도는 전무하다고 비판했다.",
+      "summary_provider": "gemini",
+      "tags": [
+        "미 육군",
+        "JLTV",
+        "계약 지연"
+      ],
+      "editor_reason": "방산 계약 지연 이슈를 다루어 관련성이 높음",
+      "is_update": false,
+      "shortage": false,
+      "score": 97,
       "source_tier": "general"
     }
   ]
