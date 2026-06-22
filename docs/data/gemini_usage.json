@@ -3,8 +3,8 @@
   "requests": 0,
   "estimated_input_tokens": 0,
   "estimated_output_tokens": 0,
-  "skipped": 12,
-  "errors": 1,
+  "skipped": 24,
+  "errors": 2,
   "model": "",
   "disabled_reason": "Gemini API server error 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\""
 }
