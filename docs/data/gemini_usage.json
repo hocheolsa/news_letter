@@ -1,9 +1,10 @@
 {
   "date": "2026-07-25",
-  "requests": 23,
-  "estimated_input_tokens": 71930,
-  "estimated_output_tokens": 41400,
-  "skipped": 15,
-  "errors": 1,
-  "model": "gemini-2.5-flash-lite"
+  "requests": 27,
+  "estimated_input_tokens": 84637,
+  "estimated_output_tokens": 48600,
+  "skipped": 23,
+  "errors": 2,
+  "model": "gemini-2.5-flash-lite",
+  "disabled_reason": "Extra data: line 1 column 1033 (char 1032)"
 }
