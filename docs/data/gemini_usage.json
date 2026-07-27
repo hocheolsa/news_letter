@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-27",
-  "requests": 17,
-  "estimated_input_tokens": 48971,
-  "estimated_output_tokens": 30600,
-  "skipped": 32,
-  "errors": 3,
+  "date": "2026-07-28",
+  "requests": 4,
+  "estimated_input_tokens": 13337,
+  "estimated_output_tokens": 7200,
+  "skipped": 8,
+  "errors": 1,
   "model": "gemini-2.5-flash-lite",
-  "disabled_reason": "Gemini API server error 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\""
+  "disabled_reason": "Extra data: line 1 column 1036 (char 1035)"
 }
