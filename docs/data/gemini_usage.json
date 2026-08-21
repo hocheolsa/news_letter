@@ -3,8 +3,8 @@
   "requests": 0,
   "estimated_input_tokens": 0,
   "estimated_output_tokens": 0,
-  "skipped": 12,
-  "errors": 1,
+  "skipped": 24,
+  "errors": 2,
   "model": "",
   "disabled_reason": "Gemini API stopped by status 401: {\n  \"error\": {\n    \"code\": 401,\n    \"message\": \"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See "
 }
